@@ -7,6 +7,7 @@ target/
 .project
 .classpath
 .settings/
+stacktrace.log
 
 .idea/
 *.iml
