@@ -11,3 +11,5 @@ stacktrace.log
 
 .idea/
 *.iml
+
+prodDb.*
