@@ -15,3 +15,4 @@ stacktrace.log
 prodDb.*
 
 /example/src/main/scripts/instances.txt
+/example/src/main/scripts/log/
