@@ -16,3 +16,4 @@ prodDb.*
 
 /example/src/main/scripts/instances.txt
 /example/src/main/scripts/log/
+instances.txt.*
