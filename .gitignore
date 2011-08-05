@@ -13,3 +13,5 @@ stacktrace.log
 *.iml
 
 prodDb.*
+
+/example/src/main/scripts/instances.txt
