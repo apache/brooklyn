@@ -9,6 +9,8 @@ target/
 .settings/
 .metadata/
 stacktrace.log
+*.swo
+*.swp
 
 .idea/
 *.iml
