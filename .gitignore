@@ -22,3 +22,6 @@ prodDb.*
 instances.txt.*
 
 ignored
+
+*.log
+overflow*
