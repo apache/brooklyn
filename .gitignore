@@ -23,6 +23,8 @@ instances.txt.*
 
 ignored
 
+brooklyn.log
+
 *.log
 overflow*
 gemfire/log
