@@ -27,4 +27,3 @@ brooklyn.log
 
 *.log
 overflow*
-gemfire/log
