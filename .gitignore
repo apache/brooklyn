@@ -1,29 +1,27 @@
 \#*\#
 *~
+*.swp
+*.swo
 .DS_Store
+
 *.class
+
 bin/
 target/
+test-output/
+
 .project
 .classpath
 .settings/
 .metadata/
-stacktrace.log
-*.swo
-*.swp
 
 .idea/
 *.iml
 
 prodDb.*
 
-/example/src/main/scripts/instances.txt
-/example/src/main/scripts/log/
-instances.txt.*
+brooklyn.log
+stacktrace.log
+jmeter.log
 
 ignored
-
-brooklyn.log
-
-*.log
-overflow*
