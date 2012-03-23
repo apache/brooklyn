@@ -20,8 +20,6 @@ test-output/
 
 prodDb.*
 
-brooklyn.log
-stacktrace.log
-jmeter.log
+*.log
 
 ignored
