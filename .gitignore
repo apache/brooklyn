@@ -5,6 +5,7 @@
 *.swo
 .DS_Store
 
+atlassian-ide-plugin.xml 
 *.class
 
 target/
