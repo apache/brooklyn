@@ -4,16 +4,11 @@ Brooklyn is a library and control plane for deploying and managing distributed a
 
 See [brooklyncentral.github.com](http://brooklyncentral.github.com) for details and examples.
 
-## What?
-
-Brooklyn is a management tool for applications hosted in one or more clouds (or other locations).
-
-
 ## Quick Start
 
 Three quick start options are available:
 
-* [Getting started guide](http://brooklyncentral.github.io/use/guide/quickstart/index.html)
+* Follow the [getting started guide](http://brooklyncentral.github.io/use/guide/quickstart/index.html)
 * [Download the latest release](https://github.com/brooklyncentral/brooklyn/tarball/master).
 * Clone the repo: `git clone git://github.com/brooklyncentral/brooklyn.git`.
 
@@ -31,7 +26,7 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-Milestone (`<major>.<minor>.<patch>-M<milestone>`) and Release Candidate (`<major>.<minor>.<patch>-rc.<candidate>`) are used in the release process.
+Milestones (`<major>.<minor>.<patch>-M<milestone>`) and Release Candidates (`<major>.<minor>.<patch>-rc.<candidate>`) are used in the release process.
 
 ## Bug Tracker
 
@@ -62,7 +57,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
 You may obtain a copy of the License in the LICENSE file, or at:
 
-  [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+  [apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
