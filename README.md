@@ -1,6 +1,4 @@
-![**Brooklyn**](http://brooklyncentral.github.io/style/images/brooklyn.gif)
-
-# [Brooklyn 0.6.0-SNAPSHOT](http://brooklyncentral.github.com) <!-- BROOKLYN_VERSION -->
+# [![**Brooklyn**](http://brooklyncentral.github.io/style/images/brooklyn.gif)](http://brooklyncentral.github.com)
 
 Brooklyn is a library and control plane for deploying and managing distributed applications.
 
