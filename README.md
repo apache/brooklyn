@@ -25,7 +25,7 @@ In DevOps fashion, Brooklyn allows applications and roll-outs to be version cont
 
 Brooklyn enables [autonomic management](http://en.wikipedia.org/wiki/Autonomic_computing) of applications. (i.e. many small, local, distributed control loops).
 
-Management policies can be attached to every component part in an application, and to logic groupings of components (clusters, fabrics). Policies can implement both technical and non-technical (business) requirements.
+Management policies can be attached to every component part in an application, and to logical groupings of components (clusters, fabrics). Policies can implement both technical and non-technical (business) requirements.
 
 At runtime, policies have access to all aspects of the deployment, including deployment topology (hierarchical) and locations (machines, PaaSes, and jurisdictions), as well as scripts, instrumentation, and operational goals and constraints. This means that once the application is launched, the policies are all set to keep the application running optimally, based on whatever optimally means in that context.
 
