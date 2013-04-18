@@ -8,17 +8,16 @@ Brooklyn's main emphasis is managing live applications (e.g auto-scaling, except
 
 ### Deployment
 
-Brooklyn enables single-click deployment of complex applications.
+Brooklyn enables single-click deployment of complex applications, while tying-in with other great tools, and reusing and complementing existing workflows.
 
+Use Brooklyn to create an Application Blueprint, instructing Brooklyn how to wire together your applications and components, customizing and extending them as needed. Share the blueprint with others (optionally using Brooklyn's Web Service Catalog) to allow them to single-click deploy your application onto the infrastructure of their choice.
 
 Brooklyn features:
 
-* out-of-the-box support for many common software entities.
+* out-of-the-box support for many common software components.
 * integration with jclouds, allowing deployment to the majority of public and private clouds, in addition to pools of fixed IP machines.
 * integration with Apache Whirr (and thereby Chef and Puppet), allowing deployment of well-known services such as Hadoop and elasticsearch (and you can still use POBS, plain-old-bash-scripts).
 * integration with PaaS's such as OpenShift, allowing use of PaaSes alongside self-built clusters, for maximum flexibility.
-
-Brooklyn works with and ties into other tools, adding the concepts of manageable clusters and fabrics.
 
 In DevOps fashion, Brooklyn allows applications and roll-outs to be version controlled, tested programatically, and reused across locations and contexts. Develop on localhost, then reuse the same application descriptor to deploy to QA, and then to your production environment.
 
