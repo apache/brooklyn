@@ -24,4 +24,6 @@ prodDb.*
 *.log
 brooklyn*.log.*
 
+*brooklyn-persisted-state/
+
 ignored
