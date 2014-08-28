@@ -1,0 +1,2 @@
+#Don't auto-convert line endings for shell scripts on Windows (breaks the scripts)
+*.sh text eol=lf
