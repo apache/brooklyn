@@ -43,6 +43,9 @@ This product includes software developed at Twitter, Inc (http://twitter.com):
 bootstrap.js.
 Copyright (c) Twitter, Inc (2012).
 Licensed under the Apache License 2.0.
+typeahead.js, bloodhound.js
+Copyright (c) Twitter, Inc (2013).
+Licensed under the MIT License
 
 This product includes software developed by Yehuda Katz (https://github.com/wycats/):
 handlebars*.js.
