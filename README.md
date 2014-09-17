@@ -1,8 +1,9 @@
+
 # [![**Brooklyn**](http://brooklyncentral.github.io/style/images/brooklyn.gif)](http://brooklyncentral.github.com)
 
-Brooklyn is a library and control plane for deploying and managing distributed applications.
+Apache Brooklyn is a library and control plane for deploying and managing distributed applications.
 
-See [brooklyncentral.github.com](http://brooklyncentral.github.com) for details and examples.
+See [brooklyn.incubator.apache.org](https://brooklyn.incubator.apache.org/) for details and examples.
 
 Brooklyn's main emphasis is managing live applications (e.g auto-scaling, exception handling, auto recovery from failure, and working across multiple clouds). Brooklyn considers deployment part of management, like the opening move in a game of chess. (Distributed-application-management-chess, no less).
 
@@ -69,19 +70,20 @@ See the [full guide to contributing](http://brooklyncentral.github.com/dev/how-t
 Thanks!
 
 ----
-Licensed to the Apache Software Foundation (ASF) under one
-or more contributor license agreements.  See the NOTICE file
-distributed with this work for additional information
-regarding copyright ownership.  The ASF licenses this file
-to you under the Apache License, Version 2.0 (the
-"License"); you may not use this file except in compliance
-with the License.  You may obtain a copy of the License at
+Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements.  
+See the [NOTICE](NOTICE) file distributed with this work for additional information
+regarding copyright ownership and the [incubation disclaimer](DISCLAIMER) file regarding project status,
+as Apache Brooklyn is currently undergoing Incubation at the Apache Software Foundation.
 
- http://www.apache.org/licenses/LICENSE-2.0
+The ASF licenses this file to you under the Apache License, Version 2.0 
+(the "License"); you may not use this file except in compliance with the License.  
 
- Unless required by applicable law or agreed to in writing,
- software distributed under the License is distributed on an
- "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- KIND, either express or implied.  See the License for the
- specific language governing permissions and limitations
- under the License.
+You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+
