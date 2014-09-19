@@ -2,6 +2,79 @@
 Apache Brooklyn
 Copyright 2014 The Apache Software Foundation
 
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
 
+This product includes software developed at The Apache Software Foundation (http://www.apache.org/):
+All code unless otherwise specified.
+Copyright (c) The Apache Software Foundation
+Licensed under the Apache License 2.0.
+
+This product includes software developed at The OSGi Alliance (http://www.osgi.org/):
+Java sources in org.osgi.*.
+Copyright (c) The OSGi Alliance (2000, 2010).
+Licensed under the Apache License 2.0.
+
+This product includes software developed at The jQuery Foundation (http://jquery.org/):
+jquery.js, selected jquery*.js.
+Copyright (c) John Resig (2011).
+Licensed under the MIT license (also available under GPLv2).
+
+This product includes software developed at The Dojo Foundation (http://dojofoundation.org/):
+require.js, text.js, sizzle.js in jquery.js.
+Copyright (c) The Dojo Foundation (2011, 2012).
+require.js and text.js licensed under the MIT license (also available under New BSD).
+sizzle.js portions of jquery.js licensed under the MIT license (also available under New BSD and GPL).
+
+This product includes software developed at SpryMedia Ltd  (http://sprymedia.co.uk/):
+jquery.dataTables.js, dataTables.extensions.js.
+Copyright (c) Allan Jardine (2008-2012).
+Licensed under the New BSD license (also available under GPLv2 and newer versions under Apache License 2.0).
+
+This product includes software developed at DocumentCloud Inc (http://www.documentcloud.org/):
+backbone.js, underscore.js.
+Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2010-2013).
+Licensed under the MIT license.
+
+This product includes software developed by Miller Medeiros (https://github.com/millermedeiros/):
+async.js.
+Copyright (c) Miller Medeiros (2011).
+Licensed under the MIT license.
+
+This product includes software developed at Twitter, Inc (http://twitter.com):
+bootstrap.js.
+Copyright (c) Twitter, Inc (2012).
+Licensed under the Apache License 2.0.
+
+This product includes software developed by Yehuda Katz (https://github.com/wycats/):
+handlebars*.js.
+Copyright (c) Yehuda Katz (2012).
+Licensed under the MIT license.
+
+This product includes software developed by "Cowboy" Ben Alman (http://benalman.com/).
+jquery.ba-bbq*.js
+Copyright (c) "Cowboy" Ben Alman (2010).
+Licensed under the MIT license (also available under GPL).
+
+This product includes software developed by WonderGroup and Jordan Thomas (http://labs.wondergroup.com/demos/mini-ui/index.html):
+jquery.wiggle.js.
+Copyright (c) WonderGroup and Jordan Thomas (2010).
+Licensed under the MIT license.
+
+This product includes software developed by Tim Wood (http://momentjs.com):
+moment.js
+Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014). 
+Licensed under the MIT license.
+
+This product includes software developed at Wordnik, Inc (https://github.com/wordnik/):
+swagger*.js.
+Copyright (c) Wordnik, Inc (2011-2014).
+Licensed under the Apache License 2.0.
+
+This product includes software developed by js-uri contributors (https://code.google.com/js-uri):
+URI.js.
+Copyright (c) js-uri contributors (2013).
+Licensed under the New BSD License.
+
+This product includes software developed by ZeroClipboard contributors (https://github.com/zeroclipboard):
+ZeroClipboard.{js,swf}
+Copyright (c) Jon Rohan, James M. Greene (2014).
+Licensed under the MIT license.
