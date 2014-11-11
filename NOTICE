@@ -82,11 +82,6 @@ ZeroClipboard.{js,swf}
 Copyright (c) Jon Rohan, James M. Greene (2014).
 Licensed under the MIT license.
 
-This product includes configuation files developed at MariaDB (https://mariadb.org/):
-Configuration file in software/database/src/main/resources/brooklyn/entity/database/mariadb/my.cnf
-Copyright (c) The MariaDB Foundation.
-Licensed under GNU General Public License, version 2.
-
 This product includes configuation files developed at MySQL (http://www.mysql.com/):
 Configuration file in software/database/src/main/resources/brooklyn/entity/database/mysql/mysql.conf
 Copyright (c) The Oracle Corporation.
@@ -145,8 +140,3 @@ This product includes configuation files developed at Apache Solr (http://lucene
 Configuration file in software/nosql/src/main/resources/brooklyn/entity/nosql/solr/solr.xml
 Copyright (c) Apache Software Foundation.
 Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Red Hat JBoss (http://jbossas.jboss.org/):
-Configuration file in software/webapp/src/main/resources/brooklyn/entity/webapp/jboss/*.xml
-Copyright (c) Red Hat, Inc.
-Licensed under the Lesser GNU Public License 2.1.
