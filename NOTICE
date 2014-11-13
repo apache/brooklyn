@@ -1,4 +1,3 @@
-
 Apache Brooklyn
 Copyright 2014 The Apache Software Foundation
 
@@ -81,62 +80,3 @@ This product includes software developed by ZeroClipboard contributors (https://
 ZeroClipboard.{js,swf}
 Copyright (c) Jon Rohan, James M. Greene (2014).
 Licensed under the MIT license.
-
-This product includes configuation files developed at MySQL (http://www.mysql.com/):
-Configuration file in software/database/src/main/resources/brooklyn/entity/database/mysql/mysql.conf
-Copyright (c) The Oracle Corporation.
-Licensed under Oracle’s Free and Open Source Software ("FOSS") License Exception.
-
-This product includes configuation files developed at PostgreSQL (http://www.postgresql.org/):
-Configuration file in software/database/src/main/resources/brooklyn/entity/database/postgresql/postgresql.conf
-Copyright (c) PostgreSQL Global Development Group.
-Licensed under the PostgreSQL Licence (http://opensource.org/licenses/postgresql).
-
-This product includes configuation files developed at rubyrep (http://www.rubyrep.org/):
-Configuration file in software/database/src/main/resources/brooklyn/entity/database/rubyrep/rubyrep.conf
-Licensed under the MIT License.
-
-This product includes configuation files developed at Apache ActiveMQ (http://activemq.apache.org/):
-Configuration file in software/messaging/src/main/resources/brooklyn/entity/messaging/activemq/activemq.xml
-Copyright (c) The Apache Software Foundation.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Apache Kafka (http://kafka.apache.org/):
-Configuration files in software/messaging/src/main/resources/brooklyn/entity/messaging/kafka/*
-Copyright (c) The Apache Software Foundation.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Apache Storm (https://storm.incubator.apache.org/):
-Configuration file in software/messaging/src/main/resources/brooklyn/entity/messaging/storm/storm.yaml
-Copyright (c) The Apache Software Foundation.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Apache Cassandra (http://cassandra.apache.org/):
-Configuration file in software/nosql/src/main/resources/brooklyn/entity/nosql/cassandra/*
-Copyright (c) The Apache Software Foundation.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Apache CouchDB (http://couchdb.apache.org/):
-Configuration file in software/nosql/src/main/resources/brooklyn/entity/nosql/couchdb/couch.ini
-Copyright (c) The Apache Software Foundation.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at MongoDB (http://www.mongodb.org/):
-Configuration file in software/nosql/src/main/resources/brooklyn/entity/nosql/mongodb/default-mongodb.conf
-Copyright (c) MongoDB, Inc.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Redis (http://redis.io/):
-Configuration files in software/nosql/src/main/resources/brooklyn/entity/nosql/redis/*.conf
-Copyright (c) Salvatore Sanfilippo, Pieter Noordhuis, and other contributors as listed in the git history.
-Licensed under the Three Clause BSD license.
-
-This product includes configuation files developed at Basho (http://basho.com/riak/):
-Configuration file in software/nosql/src/main/resources/brooklyn/entity/nosql/riak/app.config
-Copyright (c) Basho Technologies.
-Licensed under the Apache License 2.0.
-
-This product includes configuation files developed at Apache Solr (http://lucene.apache.org/solr/):
-Configuration file in software/nosql/src/main/resources/brooklyn/entity/nosql/solr/solr.xml
-Copyright (c) Apache Software Foundation.
-Licensed under the Apache License 2.0.
