@@ -19,6 +19,9 @@ test-output/
 .idea/
 *.iml
 
+nbactions.xml
+nb-configuration.xml
+
 prodDb.*
 
 *.log
