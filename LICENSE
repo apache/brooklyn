@@ -177,18 +177,73 @@ http://www.apache.org/licenses/
 
 
 
+---------------------------------------------------
 
-OTHER LICENSES
+This distribution contains third party resources.
 
-This software incorporates minor components developed elsewhere, as described in 
-the accompanying NOTICE file. In addition to the Apache License 2.0 (above),
-the other licenses referenced there under which those components are used are:
+This product includes software developed at The jQuery Foundation (http://jquery.org/):
+jquery.js, selected jquery*.js.
+Copyright (c) John Resig (2011).
+Licensed under the MIT license (see below).
 
+This product includes software developed at The Dojo Foundation (http://dojofoundation.org/):
+require.js, text.js, sizzle.js in jquery.js.
+Copyright (c) The Dojo Foundation (2011, 2012).
+Licensed under the MIT license (see below).
+
+This product includes software developed at DocumentCloud Inc (http://www.documentcloud.org/):
+backbone.js, underscore.js.
+Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2010-2013).
+Licensed under the MIT license (see below).
+
+This product includes software developed by Miller Medeiros (https://github.com/millermedeiros/):
+async.js.
+Copyright (c) Miller Medeiros (2011).
+Licensed under the MIT license (see below).
+
+This product includes software developed at Twitter, Inc (http://twitter.com):
+typeahead.js, bloodhound.js
+Copyright (c) Twitter, Inc (2013).
+Licensed under the MIT license (see below).
+
+This product includes software developed by Yehuda Katz (https://github.com/wycats/):
+handlebars*.js.
+Copyright (c) Yehuda Katz (2012).
+Licensed under the MIT license (see below).
+
+This product includes software developed by "Cowboy" Ben Alman (http://benalman.com/).
+jquery.ba-bbq*.js
+Copyright (c) "Cowboy" Ben Alman (2010).
+Licensed under the MIT license (see below).
+
+This product includes software developed by WonderGroup and Jordan Thomas (http://labs.wondergroup.com/demos/mini-ui/index.html):
+jquery.wiggle.js.
+Copyright (c) WonderGroup and Jordan Thomas (2010).
+Licensed under the MIT license (see below).
+
+This product includes software developed by Tim Wood (http://momentjs.com):
+moment.js
+Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014).
+Licensed under the MIT license (see below).
+
+This product includes software developed by ZeroClipboard contributors (https://github.com/zeroclipboard):
+ZeroClipboard.js
+Copyright (c) Jon Rohan, James M. Greene (2014).
+Licensed under the MIT license (see below).
+
+
+This product includes software developed at SpryMedia Ltd  (http://sprymedia.co.uk/):
+jquery.dataTables.js, dataTables.extensions.js.
+Copyright (c) Allan Jardine (2008-2012).
+Licensed under the New BSD license (see below).
+
+This product includes software developed by js-uri contributors (https://code.google.com/js-uri):
+URI.js.
+Copyright (c) js-uri contributors (2013).
+Licensed under the New BSD license (see below).
 
 
 The MIT License ("MIT")
-
-Copyright (c) <year> <copyright holders>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -212,10 +267,7 @@ THE SOFTWARE.
 
 The BSD 3-Clause License ("New BSD")
 
-Copyright (c) <YEAR>, <OWNER>
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without modification, 
+Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright notice, 
