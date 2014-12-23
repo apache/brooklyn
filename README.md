@@ -1,5 +1,5 @@
 
-# [![**Brooklyn**](http://brooklyncentral.github.io/style/images/brooklyn.gif)](http://brooklyncentral.github.com)
+# [![**Brooklyn**](https://brooklyn.incubator.apache.org/style/img/brooklyn.gif)](http://brooklyncentral.github.com)
 
 Apache Brooklyn is a library and control plane for deploying and managing distributed applications.
 
