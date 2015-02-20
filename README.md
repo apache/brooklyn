@@ -65,7 +65,7 @@ Have a bug or a feature request? [Please open a new issue](https://issues.apache
 
 Your input will be welcomed.
 
-See the [full guide to contributing](http://brooklyncentral.github.com/dev/how-to-contrib.html) on brooklyncentral.github.com.
+See the [full guide to contributing](https://brooklyn.incubator.apache.org/community/how-to-contribute-docs.html) on brooklyn.incubator.apache.org.
 
 Thanks!
 
