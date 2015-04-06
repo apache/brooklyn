@@ -230,9 +230,8 @@ ZeroClipboard.js
 Copyright (c) Jon Rohan, James M. Greene (2014).
 Licensed under the MIT license (see below).
 
-
-This product includes software developed at SpryMedia Ltd  (http://sprymedia.co.uk/):
-jquery.dataTables.js, dataTables.extensions.js.
+This product includes software developed at SpryMedia Ltd (http://sprymedia.co.uk/):
+jquery.dataTables.js, dataTables.extensions.js
 Copyright (c) Allan Jardine (2008-2012).
 Licensed under the New BSD license (see below).
 
@@ -240,6 +239,12 @@ This product includes software developed by js-uri contributors (https://code.go
 URI.js.
 Copyright (c) js-uri contributors (2013).
 Licensed under the New BSD license (see below).
+
+This product includes software developed by Vitaly Puzrin (https://github.com/nodeca/):
+js-yaml.js
+Copyright (c) Vitaly Puzrin (2011-2015).
+Licensed under the MIT license (see below).
+
 
 
 The MIT License ("MIT")
