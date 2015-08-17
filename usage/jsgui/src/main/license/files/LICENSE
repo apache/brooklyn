@@ -1,4 +1,19 @@
 
+This software is distributed under the Apache License, version 2.0. See (1) below.
+This software is copyright (c) The Apache Software Foundation and contributors.
+
+Contents:
+
+  (1) This software license: Apache License, version 2.0
+  (2) Notices for bundled software
+  (3) Licenses for bundled software
+
+
+---------------------------------------------------
+
+(1) This software license: Apache License, version 2.0
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -175,118 +190,165 @@
       of your accepting any such warranty or additional liability.
 
 
+---------------------------------------------------
+
+(2) Notices for bundled software
+
+This project includes the software: async.js
+  Available at: https://github.com/p15martin/google-maps-hello-world/blob/master/js/libs/async.js
+  Developed by: Miller Medeiros (https://github.com/millermedeiros/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Miller Medeiros (2011)
+
+This project includes the software: backbone.js
+  Available at: http://backbonejs.org
+  Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2010-2013)
+
+This project includes the software: bootstrap.js
+  Available at: http://twitter.github.com/bootstrap/javascript.html#transitions
+  Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+  Copyright (c) Twitter, Inc (2012)
+
+This project includes the software: dataTables.js
+  Available at: http://www.datatables.net
+  Developed by: SpryMedia Ltd (http://sprymedia.co.uk/)
+  Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
+  Copyright (c) Allan Jardine (2008-2012)
+
+This project includes the software: handlebars.js
+  Available at: https://github.com/wycats/handlebars.js
+  Developed by: Yehuda Katz (https://github.com/wycats/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Yehuda Katz (2012)
+
+This project includes the software: jquery.ba-bbq.js
+  Available at: http://benalman.com/projects/jquery-bbq-plugin/
+  Developed by: "Cowboy" Ben Alman (http://benalman.com/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) "\"Cowboy\" Ben Alman (2010)"
+
+This project includes the software: jquery.form.js
+  Available at: https://github.com/malsup/form
+  Developed by: Mike Alsup (http://malsup.com/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) M. Alsup (2006-2013)
+
+This project includes the software: jquery.js
+  Available at: http://jquery.com/
+  Developed by: The jQuery Foundation (http://jquery.org/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) John Resig (2011)
+
+This project includes the software: js-uri
+  Available at: http://code.google.com/p/js-uri/
+  Developed by: js-uri contributors (https://code.google.com/js-uri)
+  Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
+  Copyright (c) js-uri contributors (2013)
+
+This project includes the software: js-yaml.js
+  Available at: https://github.com/nodeca/
+  Developed by: Vitaly Puzrin (https://github.com/nodeca/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Vitaly Puzrin (2011-2015)
+
+This project includes the software: moment.js
+  Available at: http://momentjs.com
+  Developed by: Tim Wood (http://momentjs.com)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014)
+
+This project includes the software: require.js
+  Available at: http://github.com/jrburke/requirejs for details
+  Developed by: The Dojo Foundation (http://dojofoundation.org/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) The Dojo Foundation (2010-2012)
+
+This project includes the software: sizzle.js
+  Available at: http://sizzlejs.com/
+  Developed by: The jQuery Foundation (http://jquery.org/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) jQuery Foundation and other contributors (2011)
+
+This project includes the software: Swagger JS
+  Available at: https://github.com/wordnik/swagger-js
+  Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
+This project includes the software: Swagger UI
+  Available at: https://github.com/wordnik/swagger-ui
+  Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+  Copyright (c) SmartBear Software (2011-2015), portions WonderGroup and Jordan Thomas (2010)
+
+This project includes the software: underscore.js
+  Available at: http://underscorejs.org
+  Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2009-2013)
+
+This project includes the software: ZeroClipboard
+  Available at: http://zeroclipboard.org/
+  Developed by: ZeroClipboard contributors (https://github.com/zeroclipboard)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Jon Rohan, James M. Greene (2014)
+
 
 ---------------------------------------------------
 
-This distribution contains third party resources.
+(3) Licenses for bundled software
 
-This product includes software developed at The jQuery Foundation (http://jquery.org/):
-jquery.js, selected jquery*.js.
-Copyright (c) John Resig (2011).
-Licensed under the MIT license (see below).
+Contents:
 
-This product includes software developed at The Dojo Foundation (http://dojofoundation.org/):
-require.js, text.js, sizzle.js in jquery.js.
-Copyright (c) The Dojo Foundation (2011, 2012).
-Licensed under the MIT license (see below).
-
-This product includes software developed at DocumentCloud Inc (http://www.documentcloud.org/):
-backbone.js, underscore.js.
-Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2010-2013).
-Licensed under the MIT license (see below).
-
-This product includes software developed by Miller Medeiros (https://github.com/millermedeiros/):
-async.js.
-Copyright (c) Miller Medeiros (2011).
-Licensed under the MIT license (see below).
-
-This product includes software developed by Yehuda Katz (https://github.com/wycats/):
-handlebars*.js.
-Copyright (c) Yehuda Katz (2012).
-Licensed under the MIT license (see below).
-
-This product includes software developed by "Cowboy" Ben Alman (http://benalman.com/).
-jquery.ba-bbq*.js
-Copyright (c) "Cowboy" Ben Alman (2010).
-Licensed under the MIT license (see below).
-
-This product includes software developed by WonderGroup and Jordan Thomas (http://labs.wondergroup.com/demos/mini-ui/index.html):
-jquery.wiggle.js.
-Copyright (c) WonderGroup and Jordan Thomas (2010).
-Licensed under the MIT license (see below).
-
-This product includes software developed by Tim Wood (http://momentjs.com):
-moment.js
-Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014).
-Licensed under the MIT license (see below).
-
-This product includes software developed by ZeroClipboard contributors (https://github.com/zeroclipboard):
-ZeroClipboard.js
-Copyright (c) Jon Rohan, James M. Greene (2014).
-Licensed under the MIT license (see below).
-
-This product includes software developed at SpryMedia Ltd (http://sprymedia.co.uk/):
-jquery.dataTables.js, dataTables.extensions.js
-Copyright (c) Allan Jardine (2008-2012).
-Licensed under the New BSD license (see below).
-
-This product includes software developed by js-uri contributors (https://code.google.com/js-uri):
-URI.js.
-Copyright (c) js-uri contributors (2013).
-Licensed under the New BSD license (see below).
-
-This product includes software developed by Vitaly Puzrin (https://github.com/nodeca/):
-js-yaml.js
-Copyright (c) Vitaly Puzrin (2011-2015).
-Licensed under the MIT license (see below).
-
-
-
-The MIT License ("MIT")
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
+  The BSD 3-Clause License ("New BSD")
+  The MIT License ("MIT")
 
 
 The BSD 3-Clause License ("New BSD")
 
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+  Redistribution and use in source and binary forms, with or without modification,
+  are permitted provided that the following conditions are met:
+  
+  1. Redistributions of source code must retain the above copyright notice, 
+  this list of conditions and the following disclaimer.
+  
+  2. Redistributions in binary form must reproduce the above copyright notice, 
+  this list of conditions and the following disclaimer in the documentation 
+  and/or other materials provided with the distribution.
+  
+  3. Neither the name of the copyright holder nor the names of its contributors 
+  may be used to endorse or promote products derived from this software without 
+  specific prior written permission.
+  
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+  IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+  INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
+  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
+  PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
+  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+  POSSIBILITY OF SUCH DAMAGE.
+  
 
-1. Redistributions of source code must retain the above copyright notice, 
-this list of conditions and the following disclaimer.
+The MIT License ("MIT")
 
-2. Redistributions in binary form must reproduce the above copyright notice, 
-this list of conditions and the following disclaimer in the documentation 
-and/or other materials provided with the distribution.
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+  
 
-3. Neither the name of the copyright holder nor the names of its contributors 
-may be used to endorse or promote products derived from this software without 
-specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
-INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
-PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
-WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
-POSSIBILITY OF SUCH DAMAGE.
