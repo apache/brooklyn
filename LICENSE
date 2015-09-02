@@ -265,6 +265,12 @@ This project includes the software: require.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) The Dojo Foundation (2010-2012)
 
+This project includes the software: require.js/r.js
+  Available at: http://github.com/jrburke/requirejs for details
+  Developed by: The Dojo Foundation (http://dojofoundation.org/)
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) The Dojo Foundation (2010-2012)
+
 This project includes the software: sizzle.js
   Available at: http://sizzlejs.com/
   Developed by: The jQuery Foundation (http://jquery.org/)
