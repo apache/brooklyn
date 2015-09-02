@@ -1,5 +1,5 @@
 
-# [![**Brooklyn**](https://brooklyn.incubator.apache.org/style/img/brooklyn.gif)](http://brooklyncentral.github.com)
+# [![**Brooklyn**](https://brooklyn.incubator.apache.org/style/img/brooklyn.gif)](http://brooklyn.incubator.apache.org/)
 
 Apache Brooklyn is a library and control plane for deploying and managing distributed applications.
 
@@ -45,7 +45,7 @@ Alternatively, use Brooklyn as an integrated-stand-alone management node for you
 Three quick start options are available:
 
 * The [getting started guide](https://brooklyn.incubator.apache.org/v/latest/start/running.html) will step you through downloading and installing Brooklyn and running the examples.
-* Alternatively, [download the latest release](https://github.com/brooklyncentral/brooklyn/tarball/master) (tgz).
+* Alternatively, [download the latest release](https://github.com/apache/incubator-brooklyn/tarball/master) (tgz).
 * Fork or clone the repo: `git clone git://github.com/apache/incubator-brooklyn.git` then `cd incubator-brooklyn; mvn clean install; cd usage/dist/target/brooklyn-dist; ./brooklyn/bin/brooklyn launch`.
 
 ## Community
@@ -53,7 +53,7 @@ Three quick start options are available:
 
 * Have a question that's not a feature request or bug report? Ask on the mailing lists: [brooklyn-users](http://groups.google.com/group/brooklyn-users) or [brooklyn-dev](http://groups.google.com/group/brooklyn-dev)
 * Chat with us over IRC. On the `irc.freenode.net` server, in the `#brooklyncentral` channel.
-* Follow [@brooklyncentral on Twitter](http://twitter.com/brooklyncentral).
+* Follow [@ApacheBrooklyn](http://twitter.com/ApacheBrooklyn) and [@BrooklynCentral](http://twitter.com/brooklyncentral) on Twitter.
 
 
 ## Bug Tracker
