@@ -17,5 +17,5 @@ The code can be built with a:
 
 This creates a build in `usage/dist/target/brooklyn-dist`.  Run with `bin/brooklyn launch`.
 
-The **[developer guide](https://brooklyn.incubator.apache.org/v/latest/guide/dev/)**
+The **[developer guide](https://brooklyn.incubator.apache.org/v/latest/dev/)**
 has more information about the source code.
