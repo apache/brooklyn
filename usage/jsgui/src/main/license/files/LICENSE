@@ -211,39 +211,57 @@ This project includes the software: bootstrap.js
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
   Copyright (c) Twitter, Inc (2012)
 
-This project includes the software: dataTables.js
-  Available at: http://www.datatables.net
-  Developed by: SpryMedia Ltd (http://sprymedia.co.uk/)
-  Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
-  Copyright (c) Allan Jardine (2008-2012)
-
 This project includes the software: handlebars.js
   Available at: https://github.com/wycats/handlebars.js
   Developed by: Yehuda Katz (https://github.com/wycats/)
+  Inclusive of: handlebars*.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Yehuda Katz (2012)
 
-This project includes the software: jquery.ba-bbq.js
+This project includes the software: jQuery JavaScript Library
+  Available at: http://jquery.com/
+  Developed by: The jQuery Foundation (http://jquery.org/)
+  Inclusive of: jquery.js
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) John Resig (2011)
+  Includes code fragments from sizzle.js:
+    Copyright (c) jQuery Foundation and other contributors (2011)
+    Available at http://sizzlejs.com
+    Used under the MIT license
+
+This project includes the software: jQuery BBQ: Back Button & Query Library
   Available at: http://benalman.com/projects/jquery-bbq-plugin/
   Developed by: "Cowboy" Ben Alman (http://benalman.com/)
+  Inclusive of: jquery.ba-bbq*.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) "\"Cowboy\" Ben Alman (2010)"
+  Copyright (c) "Cowboy" Ben Alman (2010)"
 
-This project includes the software: jquery.form.js
+This project includes the software: DataTables Table plug-in for jQuery
+  Available at: http://www.datatables.net/
+  Developed by: SpryMedia Ltd (http://sprymedia.co.uk/)
+  Inclusive of: jquery.dataTables.{js,css}
+  Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
+  Copyright (c) Allan Jardine (2008-2012)
+
+This project includes the software: jQuery Form Plugin
   Available at: https://github.com/malsup/form
   Developed by: Mike Alsup (http://malsup.com/)
+  Inclusive of: jquery.form.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) M. Alsup (2006-2013)
 
-This project includes the software: jquery.js
-  Available at: http://jquery.com/
-  Developed by: The jQuery Foundation (http://jquery.org/)
+This project includes the software: jQuery Wiggle
+  Available at: https://github.com/jordanthomas/jquery-wiggle
+  Inclusive of: jquery.wiggle.min.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) John Resig (2011)
+  Copyright (c) WonderGroup and Jordan Thomas (2010)
+  Previously online at http://labs.wondergroup.com/demos/mini-ui/index.html.
+  The version included here is from the Swagger UI distribution.
 
 This project includes the software: js-uri
   Available at: http://code.google.com/p/js-uri/
   Developed by: js-uri contributors (https://code.google.com/js-uri)
+  Inclusive of: URI.js
   Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
   Copyright (c) js-uri contributors (2013)
 
@@ -259,42 +277,61 @@ This project includes the software: moment.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014)
 
-This project includes the software: require.js
-  Available at: http://github.com/jrburke/requirejs for details
+This project includes the software: RequireJS
+  Available at: http://requirejs.org/
   Developed by: The Dojo Foundation (http://dojofoundation.org/)
+  Inclusive of: require.js, text.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) The Dojo Foundation (2010-2012)
 
-This project includes the software: require.js/r.js
-  Available at: http://github.com/jrburke/requirejs for details
+This project includes the software: RequireJS (r.js maven plugin)
+  Available at: http://github.com/jrburke/requirejs
   Developed by: The Dojo Foundation (http://dojofoundation.org/)
+  Inclusive of: r.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) The Dojo Foundation (2010-2012)
-
-This project includes the software: sizzle.js
-  Available at: http://sizzlejs.com/
-  Developed by: The jQuery Foundation (http://jquery.org/)
-  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) jQuery Foundation and other contributors (2011)
+  Copyright (c) The Dojo Foundation (2009-2013)
+  Includes code fragments for source-map and other functionality:
+    Copyright (c) The Mozilla Foundation and contributors (2011)
+    Used under the BSD 2-Clause license.
+  Includes code fragments for parse-js and other functionality:
+    Copyright (c) Mihai Bazon (2010, 2012)
+    Used under the BSD 2-Clause license.
+  Includes code fragments for uglifyjs/consolidator:
+    Copyright (c) Robert Gust-Bardon (2012)
+    Used under the BSD 2-Clause license.
+  Includes code fragments for the esprima parser:
+    Copyright (c):
+      Ariya Hidayat (2011, 2012)
+      Mathias Bynens (2012)
+      Joost-Wim Boekesteijn (2012)
+      Kris Kowal (2012)
+      Yusuke Suzuki (2012)
+      Arpad Borsos (2012)
+    Used under the BSD 2-Clause license.
 
 This project includes the software: Swagger JS
   Available at: https://github.com/wordnik/swagger-js
+  Inclusive of: swagger.js
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+  Copyright (c) SmartBear Software (2011-2015)
 
 This project includes the software: Swagger UI
   Available at: https://github.com/wordnik/swagger-ui
+  Inclusive of: swagger-ui.js
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-  Copyright (c) SmartBear Software (2011-2015), portions WonderGroup and Jordan Thomas (2010)
+  Copyright (c) SmartBear Software (2011-2015)
 
 This project includes the software: underscore.js
   Available at: http://underscorejs.org
   Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
+  Inclusive of: underscore*.{js,map}
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2009-2013)
 
 This project includes the software: ZeroClipboard
   Available at: http://zeroclipboard.org/
   Developed by: ZeroClipboard contributors (https://github.com/zeroclipboard)
+  Inclusive of: ZeroClipboard.*
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jon Rohan, James M. Greene (2014)
 
@@ -305,9 +342,34 @@ This project includes the software: ZeroClipboard
 
 Contents:
 
+  The BSD 2-Clause License
   The BSD 3-Clause License ("New BSD")
   The MIT License ("MIT")
 
+
+The BSD 2-Clause License
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+  
+  1. Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+  
+  2. Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+  
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+  ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  
 
 The BSD 3-Clause License ("New BSD")
 
