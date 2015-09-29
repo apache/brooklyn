@@ -197,17 +197,20 @@ Contents:
 This project includes the software: async.js
   Available at: https://github.com/p15martin/google-maps-hello-world/blob/master/js/libs/async.js
   Developed by: Miller Medeiros (https://github.com/millermedeiros/)
+  Version used: 0.1.1
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Miller Medeiros (2011)
 
 This project includes the software: backbone.js
   Available at: http://backbonejs.org
   Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
+  Version used: 1.0.0
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2010-2013)
 
 This project includes the software: bootstrap.js
   Available at: http://twitter.github.com/bootstrap/javascript.html#transitions
+  Version used: 2.0.4
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
   Copyright (c) Twitter, Inc (2012)
 
@@ -215,6 +218,7 @@ This project includes the software: handlebars.js
   Available at: https://github.com/wycats/handlebars.js
   Developed by: Yehuda Katz (https://github.com/wycats/)
   Inclusive of: handlebars*.js
+  Version used: 1.0-rc1
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Yehuda Katz (2012)
 
@@ -222,6 +226,7 @@ This project includes the software: jQuery JavaScript Library
   Available at: http://jquery.com/
   Developed by: The jQuery Foundation (http://jquery.org/)
   Inclusive of: jquery.js
+  Version used: 1.7.2
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) John Resig (2011)
   Includes code fragments from sizzle.js:
@@ -233,6 +238,7 @@ This project includes the software: jQuery BBQ: Back Button & Query Library
   Available at: http://benalman.com/projects/jquery-bbq-plugin/
   Developed by: "Cowboy" Ben Alman (http://benalman.com/)
   Inclusive of: jquery.ba-bbq*.js
+  Version used: 1.2.1
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) "Cowboy" Ben Alman (2010)"
 
@@ -240,6 +246,7 @@ This project includes the software: DataTables Table plug-in for jQuery
   Available at: http://www.datatables.net/
   Developed by: SpryMedia Ltd (http://sprymedia.co.uk/)
   Inclusive of: jquery.dataTables.{js,css}
+  Version used: 1.9.4
   Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
   Copyright (c) Allan Jardine (2008-2012)
 
@@ -247,12 +254,14 @@ This project includes the software: jQuery Form Plugin
   Available at: https://github.com/malsup/form
   Developed by: Mike Alsup (http://malsup.com/)
   Inclusive of: jquery.form.js
+  Version used: 3.09
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) M. Alsup (2006-2013)
 
 This project includes the software: jQuery Wiggle
   Available at: https://github.com/jordanthomas/jquery-wiggle
   Inclusive of: jquery.wiggle.min.js
+  Version used: swagger-ui:1.0.1
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) WonderGroup and Jordan Thomas (2010)
   Previously online at http://labs.wondergroup.com/demos/mini-ui/index.html.
@@ -262,18 +271,21 @@ This project includes the software: js-uri
   Available at: http://code.google.com/p/js-uri/
   Developed by: js-uri contributors (https://code.google.com/js-uri)
   Inclusive of: URI.js
+  Version used: r29
   Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
   Copyright (c) js-uri contributors (2013)
 
 This project includes the software: js-yaml.js
   Available at: https://github.com/nodeca/
   Developed by: Vitaly Puzrin (https://github.com/nodeca/)
+  Version used: 3.2.7
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Vitaly Puzrin (2011-2015)
 
 This project includes the software: moment.js
   Available at: http://momentjs.com
   Developed by: Tim Wood (http://momentjs.com)
+  Version used: 2.1.0
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014)
 
@@ -281,6 +293,7 @@ This project includes the software: RequireJS
   Available at: http://requirejs.org/
   Developed by: The Dojo Foundation (http://dojofoundation.org/)
   Inclusive of: require.js, text.js
+  Version used: 2.0.6
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) The Dojo Foundation (2010-2012)
 
@@ -288,6 +301,7 @@ This project includes the software: RequireJS (r.js maven plugin)
   Available at: http://github.com/jrburke/requirejs
   Developed by: The Dojo Foundation (http://dojofoundation.org/)
   Inclusive of: r.js
+  Version used: 2.1.6
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) The Dojo Foundation (2009-2013)
   Includes code fragments for source-map and other functionality:
@@ -312,12 +326,14 @@ This project includes the software: RequireJS (r.js maven plugin)
 This project includes the software: Swagger JS
   Available at: https://github.com/wordnik/swagger-js
   Inclusive of: swagger.js
+  Version used: 1.0.1
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
   Copyright (c) SmartBear Software (2011-2015)
 
 This project includes the software: Swagger UI
   Available at: https://github.com/wordnik/swagger-ui
   Inclusive of: swagger-ui.js
+  Version used: 1.0.1
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
   Copyright (c) SmartBear Software (2011-2015)
 
@@ -325,6 +341,7 @@ This project includes the software: underscore.js
   Available at: http://underscorejs.org
   Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
   Inclusive of: underscore*.{js,map}
+  Version used: 1.4.4
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2009-2013)
 
@@ -332,6 +349,7 @@ This project includes the software: ZeroClipboard
   Available at: http://zeroclipboard.org/
   Developed by: ZeroClipboard contributors (https://github.com/zeroclipboard)
   Inclusive of: ZeroClipboard.*
+  Version used: 1.3.1
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jon Rohan, James M. Greene (2014)
 
