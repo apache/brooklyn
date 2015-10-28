@@ -203,16 +203,16 @@ This project includes the software: async.js
 
 This project includes the software: backbone.js
   Available at: http://backbonejs.org
-  Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
+  Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
   Version used: 1.0.0
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2010-2013)
+  Copyright (c) Jeremy Ashkenas, DocumentCloud Inc. (2010-2013)
 
 This project includes the software: bootstrap.js
   Available at: http://twitter.github.com/bootstrap/javascript.html#transitions
   Version used: 2.0.4
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-  Copyright (c) Twitter, Inc (2012)
+  Copyright (c) Twitter, Inc. (2012)
 
 This project includes the software: handlebars.js
   Available at: https://github.com/wycats/handlebars.js
@@ -228,9 +228,9 @@ This project includes the software: jQuery JavaScript Library
   Inclusive of: jquery.js
   Version used: 1.7.2
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) John Resig (2011)
+  Copyright (c) John Resig (2005-2011)
   Includes code fragments from sizzle.js:
-    Copyright (c) jQuery Foundation and other contributors (2011)
+    Copyright (c) The Dojo Foundation
     Available at http://sizzlejs.com
     Used under the MIT license
 
@@ -271,7 +271,7 @@ This project includes the software: js-uri
   Available at: http://code.google.com/p/js-uri/
   Developed by: js-uri contributors (https://code.google.com/js-uri)
   Inclusive of: URI.js
-  Version used: r29
+  Version used: 0.1
   Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
   Copyright (c) js-uri contributors (2013)
 
@@ -339,11 +339,11 @@ This project includes the software: Swagger UI
 
 This project includes the software: underscore.js
   Available at: http://underscorejs.org
-  Developed by: DocumentCloud Inc (http://www.documentcloud.org/)
+  Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
   Inclusive of: underscore*.{js,map}
   Version used: 1.4.4
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
-  Copyright (c) Jeremy Ashkenas, DocumentCloud Inc (2009-2013)
+  Copyright (c) Jeremy Ashkenas, DocumentCloud Inc. (2009-2013)
 
 This project includes the software: ZeroClipboard
   Available at: http://zeroclipboard.org/
