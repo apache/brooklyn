@@ -208,6 +208,13 @@ This project includes the software: backbone.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jeremy Ashkenas, DocumentCloud Inc. (2010-2013)
 
+This project includes the software: backbone.js
+  Available at: http://backbonejs.org
+  Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
+  Version used: 1.1.2
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Jeremy Ashkenas, DocumentCloud (2010-2014)
+
 This project includes the software: bootstrap.js
   Available at: http://twitter.github.com/bootstrap/javascript.html#transitions
   Version used: 2.0.4
@@ -222,6 +229,14 @@ This project includes the software: handlebars.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Yehuda Katz (2012)
 
+This project includes the software: handlebars.js
+  Available at: https://github.com/wycats/handlebars.js
+  Developed by: Yehuda Katz (https://github.com/wycats/)
+  Inclusive of: handlebars*.js
+  Version used: 2.0.0
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (C) by Yehuda Katz (2011-2014)
+
 This project includes the software: jQuery JavaScript Library
   Available at: http://jquery.com/
   Developed by: The jQuery Foundation (http://jquery.org/)
@@ -229,6 +244,18 @@ This project includes the software: jQuery JavaScript Library
   Version used: 1.7.2
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) John Resig (2005-2011)
+  Includes code fragments from sizzle.js:
+    Copyright (c) The Dojo Foundation
+    Available at http://sizzlejs.com
+    Used under the MIT license
+
+This project includes the software: jQuery JavaScript Library
+  Available at: http://jquery.com/
+  Developed by: The jQuery Foundation (http://jquery.org/)
+  Inclusive of: jquery.js
+  Version used: 1.8.0
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) jQuery Foundation and other contributors (2012)
   Includes code fragments from sizzle.js:
     Copyright (c) The Dojo Foundation
     Available at http://sizzlejs.com
@@ -324,18 +351,18 @@ This project includes the software: RequireJS (r.js maven plugin)
     Used under the BSD 2-Clause license.
 
 This project includes the software: Swagger JS
-  Available at: https://github.com/wordnik/swagger-js
+  Available at: https://github.com/swagger-api/swagger-js
   Inclusive of: swagger.js
-  Version used: 1.0.1
+  Version used: 2.1.6
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-  Copyright (c) SmartBear Software (2011-2015)
+  Copyright (c) SmartBear Software (2015)
 
 This project includes the software: Swagger UI
-  Available at: https://github.com/wordnik/swagger-ui
+  Available at: https://github.com/swagger-api/swagger-ui
   Inclusive of: swagger-ui.js
-  Version used: 1.0.1
+  Version used: 2.1.3
   Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-  Copyright (c) SmartBear Software (2011-2015)
+  Copyright (c) SmartBear Software (2015)
 
 This project includes the software: underscore.js
   Available at: http://underscorejs.org
@@ -345,6 +372,14 @@ This project includes the software: underscore.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jeremy Ashkenas, DocumentCloud Inc. (2009-2013)
 
+This project includes the software: underscore.js
+  Available at: http://underscorejs.org
+  Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
+  Inclusive of: underscore*.{js,map}
+  Version used: 1.7.0
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors (2009-2014)
+
 This project includes the software: ZeroClipboard
   Available at: http://zeroclipboard.org/
   Developed by: ZeroClipboard contributors (https://github.com/zeroclipboard)
@@ -353,6 +388,13 @@ This project includes the software: ZeroClipboard
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Jon Rohan, James M. Greene (2014)
 
+This project includes the software: marked.js
+  Available at: https://github.com/chjj/marked
+  Developed by: Christopher Jeffrey (https://github.com/chjj)
+  Inclusive of: marked.js
+  Version used: 0.3.1
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Christopher Jeffrey (2011-2014)
 
 ---------------------------------------------------
 
