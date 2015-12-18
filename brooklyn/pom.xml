@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.apache</groupId>
+        <artifactId>apache</artifactId>
+        <version>17</version>
+    </parent>
+
+    <groupId>org.apache.brooklyn</groupId>
+    <artifactId>brooklyn</artifactId>
+    <version>0.9.SPLITWIP-SNAPSHOT</version>  <!-- BROOKLYN_VERSION -->
+    <packaging>pom</packaging>
+
+    <name>Brooklyn Root</name>
+    <description>
+        Brooklyn project root, serving as the ancestor POM for all projects 
+        container in the brooklyn-* repositories.
+    </description>
+    <url>https://brooklyn.apache.org/</url>
+    <inceptionYear>2012</inceptionYear>
+
+    <developers>
+        <!-- TODO update with PMC members and committers -->
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-brooklyn.git</connection>
+        <developerConnection>scm:git:https://git-wip-us.apache.org/repos/asf/incubator-brooklyn.git</developerConnection>
+        <url>https://git-wip-us.apache.org/repos/asf?p=incubator-brooklyn.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <system>JIRA</system>
+        <url>https://issues.apache.org/jira/browse/BROOKLYN</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Jenkins</system>
+        <url>https://builds.apache.org/job/incubator-brooklyn-master-build/</url>
+    </ciManagement>
+    <mailingLists>
+        <mailingList>
+            <name>Brooklyn Developer List</name>
+            <subscribe>dev-subscribe@brooklyn.apache.org</subscribe>
+            <unsubscribe>dev-unsubscribe@brooklyn.apache.org</unsubscribe>
+            <post>dev@brooklyn.apache.org</post>
+            <archive>
+                http://mail-archives.apache.org/mod_mbox/brooklyn-dev/
+            </archive>
+        </mailingList>
+    </mailingLists>
+
+    <modules>
+        <module>../brooklyn-ui</module>
+        <module>../brooklyn-server</module>
+        <module>../brooklyn-library</module>
+        <module>../brooklyn-dist</module>
+    </modules>
+
+</project>

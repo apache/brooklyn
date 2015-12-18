@@ -11,11 +11,12 @@ For more information see **[brooklyn.apache.org](https://brooklyn.apache.org/)**
 
 ### To Build
 
-The code can be built with a:
+This is the uber-repo. To build the product, ensure that the other `brooklyn-*` projects are checked out,
+currently as *siblings* to this directory (but with a notion to make them submodules), and then:
 
     mvn clean install
 
-This creates a build in `usage/dist/target/brooklyn-dist`.  Run with `bin/brooklyn launch`.
+This creates a build in `brooklyn-dist/usage/dist/target/brooklyn-dist`.  Run with `bin/brooklyn launch`.
 
 The **[developer guide](https://brooklyn.apache.org/v/latest/dev/)**
 has more information about the source code.
