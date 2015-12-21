@@ -29,7 +29,7 @@
 
     <groupId>org.apache.brooklyn</groupId>
     <artifactId>brooklyn</artifactId>
-    <version>0.9.SPLITWIP-SNAPSHOT</version>  <!-- BROOKLYN_VERSION -->
+    <version>0.9.0-SNAPSHOT</version>  <!-- BROOKLYN_VERSION -->
     <packaging>pom</packaging>
 
     <name>Brooklyn Root</name>
