@@ -25,6 +25,7 @@
         <groupId>org.apache</groupId>
         <artifactId>apache</artifactId>
         <version>17</version>
+        <relativePath></relativePath> <!-- prevent loading of ../pom.xml as the "parent" -->
     </parent>
 
     <groupId>org.apache.brooklyn</groupId>
