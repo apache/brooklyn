@@ -282,6 +282,13 @@ This project includes the software: js-yaml.js
   Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
   Copyright (c) Vitaly Puzrin (2011-2015)
 
+This project includes the software: marked.js
+  Available at: https://github.com/chjj/marked
+  Developed by: Christopher Jeffrey (https://github.com/chjj)
+  Version used: 0.3.1
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Christopher Jeffrey (2011-2014)
+
 This project includes the software: moment.js
   Available at: http://momentjs.com
   Developed by: Tim Wood (http://momentjs.com)
@@ -323,19 +330,11 @@ This project includes the software: RequireJS (r.js maven plugin)
       Arpad Borsos (2012)
     Used under the BSD 2-Clause license.
 
-This project includes the software: Swagger JS
-  Available at: https://github.com/wordnik/swagger-js
-  Inclusive of: swagger.js
-  Version used: 1.0.1
-  Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-  Copyright (c) SmartBear Software (2011-2015)
+This project includes the software: swagger
+  Used under the following license: <no license info>
 
-This project includes the software: Swagger UI
-  Available at: https://github.com/wordnik/swagger-ui
-  Inclusive of: swagger-ui.js
-  Version used: 1.0.1
-  Used under the following license: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-  Copyright (c) SmartBear Software (2011-2015)
+This project includes the software: swagger-ui
+  Used under the following license: <no license info>
 
 This project includes the software: typeahead.js
   Available at: https://github.com/twitter/typeahead.js
