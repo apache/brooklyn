@@ -250,6 +250,13 @@ This project includes the software: DataTables Table plug-in for jQuery
   Used under the following license: The BSD 3-Clause (New BSD) License (http://opensource.org/licenses/BSD-3-Clause)
   Copyright (c) Allan Jardine (2008-2012)
 
+This project includes the software: glossarizer
+  Available at: https://github.com/PebbleRoad/glossarizer
+  Developed by: Vinay M, PebbleRoad Pte Ltd (http://www.pebbleroad.com)
+  Version used: 1.5
+  Used under the following license: The MIT License (http://opensource.org/licenses/MIT)
+  Copyright (c) Vinay M, PebbleRoad Pte Ltd (2004-2016)
+
 This project includes the software: jQuery Form Plugin
   Available at: https://github.com/malsup/form
   Developed by: Mike Alsup (http://malsup.com/)
