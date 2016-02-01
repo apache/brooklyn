@@ -1,0 +1,24 @@
+[submodule "brooklyn-ui"]
+	path = brooklyn-ui
+	url = https://github.com/apache/brooklyn-ui.git
+	branch = master
+[submodule "brooklyn-server"]
+	path = brooklyn-server
+	url = https://github.com/apache/brooklyn-server.git
+	branch = master
+[submodule "brooklyn-library"]
+	path = brooklyn-library
+	url = https://github.com/apache/brooklyn-library.git
+	branch = master
+[submodule "brooklyn-dist"]
+	path = brooklyn-dist
+	url = https://github.com/apache/brooklyn-dist.git
+	branch = master
+[submodule "brooklyn-docs"]
+	path = brooklyn-docs
+	url = https://github.com/apache/brooklyn-docs.git
+	branch = master
+[submodule "brooklyn-client"]
+	path = brooklyn-client
+	url = https://github.com/apache/brooklyn-client.git
+	branch = master
