@@ -73,10 +73,10 @@
     </mailingLists>
 
     <modules>
-        <module>../brooklyn-ui</module>
-        <module>../brooklyn-server</module>
-        <module>../brooklyn-library</module>
-        <module>../brooklyn-dist</module>
+        <module>brooklyn-ui</module>
+        <module>brooklyn-server</module>
+        <module>brooklyn-library</module>
+        <module>brooklyn-dist</module>
     </modules>
 
 </project>
