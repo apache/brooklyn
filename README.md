@@ -6,11 +6,11 @@
 It supports blueprints in YAML or Java, and deploys them to many clouds and other target environments.
 It monitors those deployments, maintains a live model, and runs autonomic policies to maintain their health.
 
-For more information visit **[ brooklyn.apache.org ]( https://brooklyn.apache.org/ )**,
+For more information visit **[brooklyn.apache.org]( https://brooklyn.apache.org/ )**,
 where you'll find:
 * **[ Pre-built binaries ]( https://brooklyn.apache.org/download/ )**
 * **[ Getting Started instructions ]( https://brooklyn.apache.org/v/latest/start/running.html )**
-* **[ A Product Tour ](https://brooklyn.apache.org/learnmore/index.html)**
+* **[ A Product Tour ](https://brooklyn.apache.org/learnmore/)**
 
 
 ### Quick Start
@@ -33,21 +33,20 @@ To run, you might:
     pushd brooklyn-dist/usage/dist/target/brooklyn-dist/brooklyn/
     bin/brooklyn launch
 
-For more on the code, sub-modules, not using sub-modules, and other topics, see below.
-
 
 ### Resources
 
 <!--- BROOKLYN_VERSION_BELOW -->
-The **[Developers](https://brooklyn.apache.org/developers/index.html) section** of the main website and the **Developer Guide** contains more detail on working with the codebase. It is available for [this version/branch -- 0.9.0-SNAPSHOT](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/) (permalink, also used below) or for [the latest released version](https://brooklyn.apache.org/v/latest/dev/).
+The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (0.9.0-SNAPSHOT)](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
 
 Useful topics include:
 
 * getting the **[source code](https://brooklyn.apache.org/developers/code/)**
 
-* [setting up Git](https://brooklyn.apache.org/developers/code/git-more.html) with forks, submodules (or alternatively avoiding submodules) and other productivity hints
+* **[setting up Git](https://brooklyn.apache.org/developers/code/git-more.html)** with forks, submodules (or alternatively [avoiding submodules](https://brooklyn.apache.org/developers/code/git-more.html#not-using-submodules)) and other productivity hints
 
 <!--- BROOKLYN_VERSION_BELOW -->
-* **[project structure](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code/structure.html)**
+* **[project structure](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
 
-* the **[people](https://brooklyn.apache.org/community/index.html)** behind Apache Brooklyn
+* the **[people](https://brooklyn.apache.org/community/)** behind Apache Brooklyn
+
