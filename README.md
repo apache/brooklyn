@@ -39,21 +39,15 @@ For more on the code, sub-modules, not using sub-modules, and other topics, see 
 ### Resources
 
 <!--- BROOKLYN_VERSION_BELOW -->
-The **Developer Guide** contains more detail on working with the codebase. It is available for [this version/branch -- 0.9.0-SNAPSHOT](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/) (permalink, also used below) or for [the latest released version](https://brooklyn.apache.org/v/latest/dev/).
+The **[Developers](https://brooklyn.apache.org/developers/index.html) section** of the main website and the **Developer Guide** contains more detail on working with the codebase. It is available for [this version/branch -- 0.9.0-SNAPSHOT](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/) (permalink, also used below) or for [the latest released version](https://brooklyn.apache.org/v/latest/dev/).
 
 Useful topics include:
 
-<!--- BROOKLYN_VERSION_BELOW -->
-* working with the **[source code](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code)**
+* getting the **[source code](https://brooklyn.apache.org/developers/code/)**
 
-<!--- BROOKLYN_VERSION_BELOW -->
-* using **[git sub-modules](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code/submodules.html)** effectively
-
-<!--- BROOKLYN_VERSION_BELOW -->
-* **[avoiding](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code/no-submodules.html)** sub-modules
+* [setting up Git](https://brooklyn.apache.org/developers/code/git-more.html) with forks, submodules (or alternatively avoiding submodules) and other productivity hints
 
 <!--- BROOKLYN_VERSION_BELOW -->
 * **[project structure](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code/structure.html)**
 
-<!--- BROOKLYN_VERSION_BELOW -->
 * the **[people](https://brooklyn.apache.org/community/index.html)** behind Apache Brooklyn
