@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl"?>
+<rdf:RDF xml:lang="en"
+         xmlns="http://usefulinc.com/ns/doap#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:asfext="http://projects.apache.org/ns/asfext#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+  <Project rdf:about="http://brooklyn.apache.org">
+    <created>2016-02-23</created>
+    <license rdf:resource="http://spdx.org/licenses/Apache-2.0" />
+    <name>Apache Brooklyn</name>
+    <homepage rdf:resource="http://brooklyn.apache.org" />
+    <asfext:pmc rdf:resource="https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees/brooklyn.rdf" />
+    <shortdesc>Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints.</shortdesc>
+    <description>Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints.
+
+        Blueprints written in YAML describe your application and are composed from the dozens of supported components and
+        your own components using Bash, Java, Puppet, Chef etc.
+
+        Multi-tiered applications described in Blueprints can be deployed, configured and integrated across 20+ public
+        clouds (Amazon EC2, CloudStack, OpenStack, SoftLayer and many more), private clouds, Docker containers or bare
+        servers.
+
+        Once deployed Apache Brooklyn monitors key application metrics to provide dynamic policy management, including
+        autoscaling to meet demand, and resilisancy though replacing/restarting failed components.
+
+        Management of Apache Brooklyn is made possible via a dynamic web console, rich REST API and simple yet powerful
+        command line interface.</description>
+    <bug-database rdf:resource="https://issues.apache.org/jira/browse/BROOKLYN/" />
+    <mailing-list rdf:resource="http://brooklyn.apache.org/community/mailing-lists.html" />
+    <download-page rdf:resource="http://brooklyn.apache.org/download/index.html" />
+    <programming-language>Java</programming-language>
+    <category rdf:resource="http://projects.apache.org/category/cloud" />
+    <release>
+      <Version>
+        <name>Brooklyn 0.8.0-incubating</name>
+        <created>2015-09-14</created>
+        <revision>0.8.0-incubating</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>Brooklyn 0.7.0-incubating</name>
+        <created>2015-07-15</created>
+        <revision>0.7.0-incubating</revision>
+      </Version>
+    </release>
+    <repository>
+      <GitRepository>
+        <location rdf:resource="https://git-wip-us.apache.org/repos/asf/brooklyn.git"/>
+        <browse rdf:resource="https://git-wip-us.apache.org/repos/asf?p=brooklyn.git"/>
+      </GitRepository>
+    </repository>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Richard Downer</foaf:name>
+          <foaf:mbox rdf:resource="mailto:richard.downer@cloudsoftcorp.com "/>
+      </foaf:Person>
+    </maintainer>
+  </Project>
+</rdf:RDF>
