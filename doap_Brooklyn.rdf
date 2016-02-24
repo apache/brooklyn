@@ -28,20 +28,9 @@
     <homepage rdf:resource="http://brooklyn.apache.org" />
     <asfext:pmc rdf:resource="https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees/brooklyn.rdf" />
     <shortdesc>Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints.</shortdesc>
-    <description>Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints.
-
-        Blueprints written in YAML describe your application and are composed from the dozens of supported components and
-        your own components using Bash, Java, Puppet, Chef etc.
-
-        Multi-tiered applications described in Blueprints can be deployed, configured and integrated across 20+ public
-        clouds (Amazon EC2, CloudStack, OpenStack, SoftLayer and many more), private clouds, Docker containers or bare
-        servers.
-
-        Once deployed Apache Brooklyn monitors key application metrics to provide dynamic policy management, including
-        autoscaling to meet demand, and resilisancy though replacing/restarting failed components.
-
-        Management of Apache Brooklyn is made possible via a dynamic web console, rich REST API and simple yet powerful
-        command line interface.</description>
+    <description>Brooklyn is about deploying and managing applications: composing a full stack for an application;
+        deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;
+        responding to situations such as a failing node; and adding or removing capacity to match demand.</description>
     <bug-database rdf:resource="https://issues.apache.org/jira/browse/BROOKLYN/" />
     <mailing-list rdf:resource="http://brooklyn.apache.org/community/mailing-lists.html" />
     <download-page rdf:resource="http://brooklyn.apache.org/download/index.html" />
@@ -69,8 +58,68 @@
     </repository>
     <maintainer>
       <foaf:Person>
+        <foaf:name>Aled Sage</foaf:name>
+          <foaf:mbox rdf:resource="mailto:aledsage@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Alex Heneveld</foaf:name>
+          <foaf:mbox rdf:resource="mailto:heneveld@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Andrea Turli</foaf:name>
+          <foaf:mbox rdf:resource="mailto:andreaturli@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Andrew Kennedy</foaf:name>
+          <foaf:mbox rdf:resource="mailto:grkvlt@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Ciprian Ciubotariu</foaf:name>
+          <foaf:mbox rdf:resource="mailto:cipi@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Hadrian Zbarcea</foaf:name>
+          <foaf:mbox rdf:resource="mailto:hadrian@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Jean-Baptiste Onofré</foaf:name>
+          <foaf:mbox rdf:resource="mailto:jbonofre@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Olivier Lamy</foaf:name>
+          <foaf:mbox rdf:resource="mailto:olamy@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
         <foaf:name>Richard Downer</foaf:name>
-          <foaf:mbox rdf:resource="mailto:richard.downer@cloudsoftcorp.com "/>
+          <foaf:mbox rdf:resource="mailto:richard@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Sam Corbett</foaf:name>
+          <foaf:mbox rdf:resource="mailto:sjcorbett@apache.org"/>
+      </foaf:Person>
+    </maintainer>
+    <maintainer>
+      <foaf:Person>
+        <foaf:name>Svetoslav Neykov</foaf:name>
+          <foaf:mbox rdf:resource="mailto:svet@apache.org"/>
       </foaf:Person>
     </maintainer>
   </Project>
