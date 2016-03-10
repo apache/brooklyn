@@ -76,6 +76,7 @@
         <module>brooklyn-ui</module>
         <module>brooklyn-server</module>
         <module>brooklyn-library</module>
+        <module>brooklyn-client</module>
         <module>brooklyn-dist</module>
     </modules>
 
