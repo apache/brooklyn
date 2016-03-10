@@ -23,7 +23,7 @@ get this project and its sub-modules:
     git submodule init
     git submodule update --remote --merge --recursive
     
-And then:
+And then, with jdk 1.8+, maven 3.1+, and go 1.6+ installed (or skip go with `-Dno-go-client`):
 
     mvn clean install
 

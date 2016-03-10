@@ -76,7 +76,34 @@
         <module>brooklyn-ui</module>
         <module>brooklyn-server</module>
         <module>brooklyn-library</module>
-        <module>brooklyn-dist</module>
     </modules>
+
+    <profiles>
+        <profile>
+            <!-- skip the client CLI by setting -Dno-go-client - useful if Go is not available -->
+            <id>go-client</id>
+            <activation>
+                <property>
+                    <name>!no-go-client</name>
+                </property>
+            </activation>
+            <modules>
+                <module>brooklyn-client</module>
+            </modules>
+        </profile>
+        <profile>
+            <!-- also build the dist with a profile; we don't really expect people to opt in to skip, though they can;
+                 mainly this is here to ensure the go-client profile modules if included get built before the dist module -->
+            <id>dist</id>
+            <activation>
+                <property>
+                    <name>!no-dist</name>
+                </property>
+            </activation>
+            <modules>
+                <module>brooklyn-dist</module>
+            </modules>
+        </profile>
+    </profiles>
 
 </project>
