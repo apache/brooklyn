@@ -37,7 +37,7 @@ To run, you might:
 ### Resources
 
 <!--- BROOKLYN_VERSION_BELOW -->
-The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (0.9.0-SNAPSHOT)](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
+The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (0.10.0-SNAPSHOT)](https://brooklyn.apache.org/v/0.10.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
 
 Useful topics include:
 
@@ -46,7 +46,7 @@ Useful topics include:
 * **[setting up Git](https://brooklyn.apache.org/developers/code/git-more.html)** with forks, submodules (or alternatively [avoiding submodules](https://brooklyn.apache.org/developers/code/git-more.html#not-using-submodules)) and other productivity hints
 
 <!--- BROOKLYN_VERSION_BELOW -->
-* **[project structure](https://brooklyn.apache.org/v/0.9.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
+* **[project structure](https://brooklyn.apache.org/v/0.10.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
 
 * the **[people](https://brooklyn.apache.org/community/)** behind Apache Brooklyn
 
