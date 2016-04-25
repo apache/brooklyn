@@ -27,10 +27,10 @@ And then, with jdk 1.8+, maven 3.1+, and go 1.6+ installed (or skip go with `-Dn
 
     mvn clean install
 
-The results are in `brooklyn-dist/usage/dist/target/`. 
+The results are in `brooklyn-dist/dist/target/`. 
 To run, you might:
 
-    pushd brooklyn-dist/usage/dist/target/brooklyn-dist/brooklyn/
+    pushd brooklyn-dist/dist/target/brooklyn-dist/brooklyn/
     bin/brooklyn launch
 
 
