@@ -23,12 +23,12 @@ get this project and its sub-modules:
     git submodule init
     git submodule update --remote --merge --recursive
     
-And then, with jdk 1.8+, maven 3.1+, and go 1.6+ installed (or skip go with `-Dno-go-client`):
+And then, with jdk 1.8+ and maven 3.1+ installed:
 
-    mvn clean install
+    mvn clean install -Dno-go-client -Dno-rpm
 
-The results are in `brooklyn-dist/dist/target/`. 
-To run, you might:
+The results are in `brooklyn-dist/dist/target/`, including a tar and a zip.
+Or to run straight after the build, do:
 
     pushd brooklyn-dist/dist/target/brooklyn-dist/brooklyn/
     bin/brooklyn launch
@@ -44,6 +44,8 @@ Useful topics include:
 * getting the **[source code](https://brooklyn.apache.org/developers/code/)**
 
 * **[setting up Git](https://brooklyn.apache.org/developers/code/git-more.html)** with forks, submodules (or alternatively [avoiding submodules](https://brooklyn.apache.org/developers/code/git-more.html#not-using-submodules)) and other productivity hints
+
+* the **[maven build](http://brooklyn.apache.org/v/latest/dev/env/maven-build.html)** and what to do on build errors
 
 <!--- BROOKLYN_VERSION_BELOW -->
 * **[project structure](https://brooklyn.apache.org/v/0.10.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
