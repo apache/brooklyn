@@ -38,14 +38,35 @@
     <category rdf:resource="http://projects.apache.org/category/cloud" />
     <release>
       <Version>
-        <name>Brooklyn 0.8.0-incubating</name>
+        <name>0.11.0</name>
+        <created>2017-05-18</created>
+        <revision>0.11.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>0.10.0</name>
+        <created>2016-12-26</created>
+        <revision>0.10.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>0.9.0</name>
+        <created>2016-04-18</created>
+        <revision>0.9.0</revision>
+      </Version>
+    </release>
+    <release>
+      <Version>
+        <name>0.8.0-incubating</name>
         <created>2015-09-14</created>
         <revision>0.8.0-incubating</revision>
       </Version>
     </release>
     <release>
       <Version>
-        <name>Brooklyn 0.7.0-incubating</name>
+        <name>0.7.0-incubating</name>
         <created>2015-07-15</created>
         <revision>0.7.0-incubating</revision>
       </Version>
@@ -56,71 +77,20 @@
         <browse rdf:resource="https://git-wip-us.apache.org/repos/asf?p=brooklyn.git"/>
       </GitRepository>
     </repository>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Aled Sage</foaf:name>
-          <foaf:mbox rdf:resource="mailto:aledsage@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Alex Heneveld</foaf:name>
-          <foaf:mbox rdf:resource="mailto:heneveld@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Andrea Turli</foaf:name>
-          <foaf:mbox rdf:resource="mailto:andreaturli@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Andrew Kennedy</foaf:name>
-          <foaf:mbox rdf:resource="mailto:grkvlt@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Ciprian Ciubotariu</foaf:name>
-          <foaf:mbox rdf:resource="mailto:cipi@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Hadrian Zbarcea</foaf:name>
-          <foaf:mbox rdf:resource="mailto:hadrian@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Jean-Baptiste Onofré</foaf:name>
-          <foaf:mbox rdf:resource="mailto:jbonofre@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Olivier Lamy</foaf:name>
-          <foaf:mbox rdf:resource="mailto:olamy@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Richard Downer</foaf:name>
-          <foaf:mbox rdf:resource="mailto:richard@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Sam Corbett</foaf:name>
-          <foaf:mbox rdf:resource="mailto:sjcorbett@apache.org"/>
-      </foaf:Person>
-    </maintainer>
-    <maintainer>
-      <foaf:Person>
-        <foaf:name>Svetoslav Neykov</foaf:name>
-          <foaf:mbox rdf:resource="mailto:svet@apache.org"/>
-      </foaf:Person>
-    </maintainer>
+    <!-- synchronise with: https://projects.apache.org/committee.html?brooklyn -->
+    <maintainer> <foaf:Person> <foaf:name>Aled Sage</foaf:name> <foaf:mbox rdf:resource="mailto:aledsage@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Andrea Turli</foaf:name> <foaf:mbox rdf:resource="mailto:andreaturli@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Ciprian Ciubotariu</foaf:name> <foaf:mbox rdf:resource="mailto:cipi@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Duncan Godwin</foaf:name> <foaf:mbox rdf:resource="mailto:drigodwin@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Geoff Macartney</foaf:name> <foaf:mbox rdf:resource="mailto:geomacy@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Andrew Kennedy</foaf:name> <foaf:mbox rdf:resource="mailto:grkvlt@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Hadrian Zbarcea</foaf:name> <foaf:mbox rdf:resource="mailto:hadrian@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Alex Heneveld</foaf:name> <foaf:mbox rdf:resource="mailto:heneveld@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Jean-Baptiste Onofré</foaf:name> <foaf:mbox rdf:resource="mailto:jbonofre@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Mark McKenna</foaf:name> <foaf:mbox rdf:resource="mailto:m4rkmckenna@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Olivier Lamy</foaf:name> <foaf:mbox rdf:resource="mailto:olamy@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Richard Downer</foaf:name> <foaf:mbox rdf:resource="mailto:richard@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Sam Corbett</foaf:name> <foaf:mbox rdf:resource="mailto:sjcorbett@apache.org"/> </foaf:Person> </maintainer>
+    <maintainer> <foaf:Person> <foaf:name>Svetoslav Neykov</foaf:name> <foaf:mbox rdf:resource="mailto:svet@apache.org"/> </foaf:Person> </maintainer>
   </Project>
 </rdf:RDF>
