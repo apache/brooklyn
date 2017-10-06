@@ -25,7 +25,15 @@ get this project and its sub-modules:
     
 And then, with jdk 1.8+ and maven 3.1+ installed:
 
-    mvn clean install -Dno-go-client -Dno-rpm
+    mvn clean install -Dno-go-client -Dno-rpm -Dno-deb
+
+However, you won't be able to build the RPM/DEB packages, as well as the CLI. That's why we would recommand to use the
+alternative: a docker container to build this project:
+
+```bash
+docker build -t brooklyn .
+docker run -i --rm --name brooklyn -v ${HOME}/.m2:/root/.m2 -v ${PWD}:/usr/build -w /usr/build brooklyn mvn clean install
+```
 
 The results are in `brooklyn-dist/dist/target/`, including a tar and a zip.
 Or to run straight after the build, do:
@@ -37,7 +45,7 @@ Or to run straight after the build, do:
 ### Resources
 
 <!--- BROOKLYN_VERSION_BELOW -->
-The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (0.13.0-SNAPSHOT)](https://brooklyn.apache.org/v/0.13.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
+The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (1.0.0-SNAPSHOT)](https://brooklyn.apache.org/v/1.0.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
 
 Useful topics include:
 
@@ -48,7 +56,7 @@ Useful topics include:
 * the **[maven build](http://brooklyn.apache.org/v/latest/dev/env/maven-build.html)** and what to do on build errors
 
 <!--- BROOKLYN_VERSION_BELOW -->
-* **[project structure](https://brooklyn.apache.org/v/0.13.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
+* **[project structure](https://brooklyn.apache.org/v/1.0.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
 
 * the **[people](https://brooklyn.apache.org/community/)** behind Apache Brooklyn
 
