@@ -25,7 +25,15 @@ get this project and its sub-modules:
     
 And then, with jdk 1.8+ and maven 3.1+ installed:
 
-    mvn clean install -Dno-go-client -Dno-rpm
+    mvn clean install -Dno-go-client -Dno-rpm -Dno-deb
+
+However, you won't be able to build the RPM/DEB packages, as well as the CLI. That's why we would recommand to use the
+alternative: a docker container to build this project:
+
+```bash
+docker build -t brooklyn .
+docker run -i --rm --name brooklyn -v ${HOME}/.m2:/root/.m2 -v ${PWD}:/usr/build -w /usr/build brooklyn mvn clean install
+```
 
 The results are in `brooklyn-dist/dist/target/`, including a tar and a zip.
 Or to run straight after the build, do:
