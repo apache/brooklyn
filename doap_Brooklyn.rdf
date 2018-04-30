@@ -26,7 +26,7 @@
     <license rdf:resource="http://spdx.org/licenses/Apache-2.0" />
     <name>Apache Brooklyn</name>
     <homepage rdf:resource="http://brooklyn.apache.org" />
-    <asfext:pmc rdf:resource="https://svn.apache.org/repos/asf/comdev/projects.apache.org/data/committees/brooklyn.rdf" />
+    <asfext:pmc rdf:resource="http://brooklyn.apache.org" />
     <shortdesc>Apache Brooklyn is a framework for modeling, monitoring, and managing applications through autonomic blueprints.</shortdesc>
     <description>Brooklyn is about deploying and managing applications: composing a full stack for an application;
         deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance metrics;
