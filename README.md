@@ -60,3 +60,6 @@ Useful topics include:
 
 * the **[people](https://brooklyn.apache.org/community/)** behind Apache Brooklyn
 
+### License
+
+This software is distributed under the Apache License, version 2.0, copyright (c) The Apache Software Foundation and contributors. Please see the LICENSE file for (1) the full text of the Apache License, followed by (2) notices for bundled software and (3) licenses for bundled software.
