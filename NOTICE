@@ -1,5 +1,843 @@
-Apache Brooklyn
-Copyright 2014-2016 The Apache Software Foundation
+Notice: |
 
-This product includes software developed at
-The Apache Software Foundation (http://www.apache.org/).
+  Apache Brooklyn
+  Copyright 2014-2018 The Apache Software Foundation
+
+  This product includes software developed at
+  The Apache Software Foundation (http://www.apache.org/).
+
+
+Bundled dependencies:
+
+  # This software includes the following bundled third-party components.
+  # Referenced licenses can be found in the accompanying LICENSE file.
+
+  async.js: 
+    Version:      0.1.1
+    Available at: https://github.com/p15martin/google-maps-hello-world/blob/master/js/libs/async.js
+    Developed by: Miller Medeiros (https://github.com/millermedeiros/)
+    License name: MIT License
+    Notice:       Copyright (c) Miller Medeiros (2011)
+  
+  backbone.js: 
+    Version:      1.0.0
+    Available at: http://backbonejs.org
+    Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
+    License name: MIT License
+    Notice:       Copyright (c) Jeremy Ashkenas, DocumentCloud Inc. (2010-2013)
+  
+  bootstrap.js: 
+    Version:      2.0.4
+    Available at: http://twitter.github.com/bootstrap/javascript.html#transitions
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) Twitter, Inc. (2012)
+  
+  codemirror.js: 
+    Version:      5.11.1
+    Available at: http://codemirror.net/
+    Inclusive of: codemirror.{js,css}, show-hint.{js,css}, placeholder.js, anyword-hint.js, yaml.js
+    License name: MIT License
+    Notice:       CodeMirror (c) Marijn Haverbeke and others
+  
+  font-awesome-code: 
+    Project:      Font Awesome (code)
+    Version:      4.5.0
+    Available at: http://fontawesome.io/
+    Inclusive of: font-awesome/{css,scss,less}/*
+    License name: MIT License
+    Notice:       Copyright (c) Dave Gandy (2016)
+  
+  font-awesome-fonts: 
+    Project:      Font Awesome (fonts)
+    Version:      4.5.0
+    Available at: http://fontawesome.io/
+    Inclusive of: font-awesome/fonts/* cluster.svg
+    License name: SIL OFL 1.1
+    Notice:       Copyright (c) Dave Gandy (2016)
+  
+  github.com/NodePrime/jsonpath/cli/jsonpath: 
+    Project:      github.com/NodePrime/jsonpath/cli/jsonpath
+    Available at: github.com/NodePrime/jsonpath/
+    License name: MIT License
+    Notice:       Copyright (c) 2015 NodePrime Inc.
+  
+  github.com/urfave/cli: 
+    Project:      github.com/urfave/cli
+    Available at: https://github.com/urfave/cli
+    License name: MIT License
+    Notice:       Copyright (c) 2016 Jeremy Saenz & Contributors
+  
+  golang.org/x/crypto/ssh: 
+    Project:      golang.org/x/crypto/ssh
+    Available at: https://godoc.org/golang.org/x/crypto/ssh
+    License name: BSD 3-Clause (New BSD) License
+    Notice:       Copyright (c) 2009 The Go Authors. All rights reserved.
+  
+  handlebars.js: 
+    Version:      1.0-rc1
+    Available at: https://github.com/wycats/handlebars.js
+    Developed by: Yehuda Katz (https://github.com/wycats/)
+    Inclusive of: handlebars*.js
+    License name: MIT License
+    Notice:       Copyright (c) Yehuda Katz (2012)
+  
+  jquery-core:1.7.2: 
+    Project:      jQuery JavaScript Library
+    Version:      1.7.2
+    Available at: http://jquery.com/
+    Developed by: The jQuery Foundation (http://jquery.org/)
+    Inclusive of: jquery.js
+    License name: MIT License
+    Notice: |
+      Copyright (c) John Resig (2005-2011)
+      Includes code fragments from sizzle.js:
+        Copyright (c) The Dojo Foundation
+        Available at http://sizzlejs.com
+        Used under the MIT license
+  
+  jquery.ba-bbq.js: 
+    Project:      jQuery BBQ: Back Button & Query Library
+    Version:      1.2.1
+    Available at: http://benalman.com/projects/jquery-bbq-plugin/
+    Developed by: "Cowboy" Ben Alman (http://benalman.com/)
+    Inclusive of: jquery.ba-bbq*.js
+    License name: MIT License
+    Notice:       Copyright (c) "Cowboy" Ben Alman (2010)"
+  
+  jquery.ba-bbq.js-hashchange: 
+    Project:      jQuery hashchange event
+    Version:      1.2
+    Available at: http://benalman.com/projects/jquery-hashchange-plugin/
+    Developed by: "Cowboy" Ben Alman (http://benalman.com/)
+    Inclusive of: jquery.ba-bbq*.js
+    License name: MIT License
+    Notice:       Copyright (c) "Cowboy" Ben Alman (2010)"
+  
+  jquery.dataTables: 
+    Project:      DataTables Table plug-in for jQuery
+    Version:      1.9.4
+    Available at: http://www.datatables.net/
+    Developed by: SpryMedia Ltd (http://sprymedia.co.uk/)
+    Inclusive of: jquery.dataTables.{js,css}
+    License name: BSD 3-Clause (New BSD) License
+    Notice:       Copyright (c) Allan Jardine (2008-2012)
+  
+  jquery.easy-autocomplete.js: 
+    Version:      1.3.3
+    Available at: https://github.com/pawelczak/EasyAutocomplete
+    License name: MIT License
+    Notice:       Copyright (c) Łukasz Pawełczak (2015)
+  
+  jquery.form.js: 
+    Project:      jQuery Form Plugin
+    Version:      3.09
+    Available at: https://github.com/malsup/form
+    Developed by: Mike Alsup (http://malsup.com/)
+    License name: MIT License
+    Notice:       Copyright (c) M. Alsup (2006-2013)
+  
+  jquery.wiggle.min.js: 
+    Project:      jQuery Wiggle
+    Version:      swagger-ui:1.0.1
+    Available at: https://github.com/jordanthomas/jquery-wiggle
+    License name: MIT License
+    Notice: |
+      Copyright (c) WonderGroup and Jordan Thomas (2010)
+      Previously online at http://labs.wondergroup.com/demos/mini-ui/index.html.
+      The version included here is from the Swagger UI distribution.
+  
+  js-uri: 
+    Version:      0.1
+    Available at: http://code.google.com/p/js-uri/
+    Developed by: js-uri contributors (https://code.google.com/js-uri)
+    Inclusive of: URI.js
+    License name: BSD 3-Clause (New BSD) License
+    Notice:       Copyright (c) js-uri contributors (2013)
+  
+  js-yaml.js: 
+    Version:      3.5.2
+    Available at: https://github.com/nodeca/
+    Developed by: Vitaly Puzrin (https://github.com/nodeca/)
+    License name: MIT License
+    Notice:       Copyright (c) Vitaly Puzrin (2011-2015)
+  
+  marked.js: 
+    Version:      0.3.1
+    Available at: https://github.com/chjj/marked
+    Developed by: Christopher Jeffrey (https://github.com/chjj)
+    License name: MIT License
+    Notice:       Copyright (c) Christopher Jeffrey (2011-2014)
+  
+  moment.js: 
+    Version:      2.1.0
+    Available at: http://momentjs.com
+    Developed by: Tim Wood (http://momentjs.com)
+    License name: MIT License
+    Notice:       Copyright (c) Tim Wood, Iskren Chernev, Moment.js contributors (2011-2014)
+  
+  noun-project-icons: 
+    Project:      The Noun Project (icons)
+    Available at: https://thenounproject.com/
+    Inclusive of: service-restarter.png, autoscaler.png, and others
+    License name: Creative Commons Public License, Attribution 3.0
+    Notice:       Includes icons by Evan Shuster, Sarah Joy, Jack Zwanenburg
+  
+  require.js: 
+    Project:      RequireJS
+    Version:      2.0.6
+    Available at: http://requirejs.org/
+    Developed by: The Dojo Foundation (http://dojofoundation.org/)
+    Inclusive of: require.js, text.js
+    License name: MIT License
+    Notice:       Copyright (c) The Dojo Foundation (2010-2012)
+  
+  require.js/r.js: 
+    Project:      RequireJS (r.js maven plugin)
+    Version:      2.1.6
+    Available at: http://github.com/jrburke/requirejs
+    Developed by: The Dojo Foundation (http://dojofoundation.org/)
+    Inclusive of: r.js
+    License name: MIT License
+    Notice: |
+      Copyright (c) The Dojo Foundation (2009-2013)
+       Includes code fragments for source-map and other functionality: 
+         Copyright (c) The Mozilla Foundation and contributors (2011)
+         Used under the BSD 2-Clause license.
+       Includes code fragments for parse-js and other functionality: 
+         Copyright (c) Mihai Bazon (2010, 2012)
+         Used under the BSD 2-Clause license.
+       Includes code fragments for uglifyjs/consolidator: 
+         Copyright (c) Robert Gust-Bardon (2012)
+         Used under the BSD 2-Clause license.
+       Includes code fragments for the esprima parser: 
+         Copyright (c):
+           Ariya Hidayat (2011, 2012)
+           Mathias Bynens (2012)
+           Joost-Wim Boekesteijn (2012)
+           Kris Kowal (2012)
+           Yusuke Suzuki (2012)
+           Arpad Borsos (2012)
+         Used under the BSD 2-Clause license.
+  
+  swagger-ui:2.1.4: 
+    Project:      Swagger UI
+    Version:      2.1.4
+    Available at: https://github.com/swagger-api/swagger-ui
+    Inclusive of: swagger*.{js,css,html}
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) SmartBear Software (2011-2015)
+  
+  tango-project-icons: 
+    Project:      Tango Project Icons
+    Available at: https://commons.wikimedia.org/wiki/File:Network-server.svg
+    License name: Public Domain
+    Notice:       Released into the public domain by the people from the Tango! project (The Tango! Desktop Project), via Wikimedia Commons
+  
+  typeahead.js: 
+    Project:      Typeahead JS
+    Version:      0.10.5
+    Available at: https://github.com/twitter/typeahead.js
+    Developed by: Twitter, Inc (http://twitter.com)
+    License name: MIT License
+    Notice:       Copyright (c) Twitter, Inc. and other contributors (2013-2014)
+  
+  underscore.js: 
+    Project:      Underscore JS
+    Version:      1.4.4
+    Available at: http://underscorejs.org
+    Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
+    Inclusive of: underscore*.{js,map}
+    License name: MIT License
+    Notice:       Copyright (c) Jeremy Ashkenas, DocumentCloud Inc. (2009-2013)
+  
+  underscore.js:1.7.0: 
+    Project:      Underscore JS
+    Version:      1.7.0
+    Available at: http://underscorejs.org
+    Developed by: DocumentCloud Inc. (http://www.documentcloud.org/)
+    Inclusive of: underscore*.{js,map}
+    License name: MIT License
+    Notice:       Copyright (c) Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors (2009-2014)
+  
+  ZeroClipboard: 
+    Version:      1.3.1
+    Available at: http://zeroclipboard.org/
+    Developed by: ZeroClipboard contributors (https://github.com/zeroclipboard)
+    Inclusive of: ZeroClipboard.*
+    License name: MIT License
+    Notice:       Copyright (c) Jon Rohan, James M. Greene (2014)
+  
+
+Runtime dependencies:
+
+  # This artifact depends on additional third-party components at runtime.
+  # These are not bundled here but may be included as part of a build.
+
+  aopalliance:1.0: 
+    Project:      AOP alliance
+    Version:      1.0
+    Available at: http://aopalliance.sourceforge.net
+    License name: Public Domain
+  
+  ch.qos.logback:1.0.7: 
+    Project:      Logback Logging Framework
+    Version:      1.0.7
+    Available at: http://logback.qos.ch
+    Developed by: QOS.ch (http://www.qos.ch)
+    License name: Eclipse Public License, version 1.0
+  
+  com.fasterxml.jackson:2.7.5: 
+    Project:      Jackson FasterXML
+    Version:      2.7.5
+    Available at: 
+      - http://github.com/FasterXML/jackson
+      - http://wiki.fasterxml.com/JacksonExtensionXmlDataBinding
+      - http://wiki.fasterxml.com/JacksonHome
+      - http://wiki.fasterxml.com/JacksonModuleJoda
+      - https://github.com/FasterXML/jackson
+    Developed by: FasterXML (http://fasterxml.com/)
+    License name: Apache License, version 2.0
+  
+  com.github.mifmif.generex:1.0.1: 
+    Project:      Generex
+    Version:      1.0.1
+    Available at: https://github.com/mifmif/Generex/tree/master
+    License name: Apache License, version 2.0
+  
+  com.google.code.findbugs.annotations:2.0.3: 
+    Project:      FindBugs-Annotations
+    Version:      2.0.3
+    Available at: http://findbugs.sourceforge.net/
+    License name: GNU Lesser General Public License, version 3.0
+  
+  com.google.code.findbugs.jsr305:2.0.1: 
+    Project:      FindBugs-jsr305
+    Version:      2.0.1
+    Available at: http://findbugs.sourceforge.net/
+    License name: Apache License, version 2.0
+  
+  com.google.code.gson:2.3: 
+    Project:      Gson
+    Version:      2.3
+    Available at: http://code.google.com/p/google-gson/
+    Developed by: Google, Inc. (http://www.google.com)
+    License name: Apache License, version 2.0
+  
+  com.google.errorprone.error_prone_annotations:2.1.0: 
+    Project:      error-prone annotations
+    Version:      2.1.0
+    Available at: http://nexus.sonatype.org/oss-repository-hosting.html
+    License name: Apache License, version 2.0
+  
+  com.google.guava:18.0: 
+    Project:      Guava: Google Core Libraries for Java
+    Version:      18.0
+    Available at: http://code.google.com/p/guava-libraries
+    License name: Apache License, version 2.0
+  
+  com.google.inject.guice:3.0: 
+    Project:      Google Guice
+    Version:      3.0
+    Available at: http://code.google.com/p/google-guice/
+    Developed by: Google, Inc. (http://www.google.com)
+    License name: Apache License, version 2.0
+  
+  com.google.inject:3.0: 
+    Project:      Google Guice
+    Version:      3.0
+    Available at: http://code.google.com/p/google-guice/
+    Developed by: Google, Inc. (http://www.google.com)
+    License name: Apache License, version 2.0
+  
+  com.hierynomus.sshj:0.20.0: 
+    Project:      sshj
+    Version:      0.20.0
+    Available at: https://github.com/hierynomus/sshj
+    License name: Apache License, version 2.0
+  
+  com.jamesmurty.utils.java-xmlbuilder:1.1: 
+    Project:      java-xmlbuilder
+    Version:      1.1
+    Available at: https://github.com/jmurty/java-xmlbuilder
+    License name: Apache License, version 2.0
+  
+  com.jayway.jsonpath.json-path:2.4.0: 
+    Project:      project ':json-path'
+    Version:      2.4.0
+    Available at: https://github.com/jayway/JsonPath
+    License name: Apache License, version 2.0
+  
+  com.jcraft.jzlib:1.1.3: 
+    Project:      JZlib
+    Version:      1.1.3
+    Available at: http://www.jcraft.com/jzlib/
+    Developed by: jcraft (http://www.jcraft.com/)
+    License name: BSD 3-Clause (New BSD) License
+    Notice:       Copyright (c) Copyright (c) 2000-2011 ymnk, JCraft,Inc. All rights reserved.
+  
+  com.jcraft:0.0.9: 
+    Project:      JCraft jsch ssh library
+    Version:      0.0.9
+    Available at: http://www.jcraft.com/jsch-agent-proxy/
+    Developed by: JCraft,Inc. (http://www.jcraft.com/)
+    License name: BSD 3-Clause (New BSD) License
+    Notice:       Copyright (c) Copyright (c) 2011-2012 Atsuhiko Yamanaka, JCraft,Inc.
+  
+  com.maxmind.db.maxmind-db:1.2.1: 
+    Project:      MaxMind DB Reader
+    Version:      1.2.1
+    Available at: http://dev.maxmind.com/
+    Developed by: MaxMind, Inc. (http://www.maxmind.com/)
+    License name: Apache License, version 2.0
+  
+  com.maxmind.geoip2:2.8.0-rc1: 
+    Project:      MaxMind GeoIP2 API
+    Version:      2.8.0-rc1
+    Available at: http://dev.maxmind.com/geoip/geoip2/web-services
+    Developed by: MaxMind, Inc. (http://www.maxmind.com/)
+    License name: Apache License, version 2.0
+  
+  com.squareup.okhttp3:3.4.1: 
+    Project: 
+      - OkHttp
+      - OkHttp Logging Interceptor
+      - OkHttp Web Sockets
+    Version:      3.4.1
+    Available at: https://github.com/square/okhttp
+    License name: Apache License, version 2.0
+  
+  com.squareup.okhttp:2.2.0: 
+    Project:      OkHttp
+    Version:      2.2.0
+    Available at: https://github.com/square/okhttp
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) Square, Inc.
+  
+  com.squareup.okio:1.2.0: 
+    Project:      Okio
+    Version:      1.2.0
+    Available at: https://github.com/square/okio
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) Square, Inc.
+  
+  com.sun.xml.bind:2.2.11: 
+    Project: 
+      - Old JAXB Core
+      - Old JAXB Runtime
+    Version:      2.2.11
+    Available at: http://jaxb.java.net
+    Developed by: Oracle Corporation (http://www.oracle.com/)
+    License name: Common Development and Distribution License, version 1.1
+  
+  com.thoughtworks.xstream:1.4.8: 
+    Project:      XStream Core
+    Version:      1.4.8
+    Available at: http://x-stream.github.io/
+    Developed by: XStream (http://xstream.codehaus.org)
+    License name: BSD 3-Clause (New BSD) License
+  
+  commons-beanutils:1.9.1: 
+    Project:      Apache Commons BeanUtils
+    Version:      1.9.1
+    Available at: http://commons.apache.org/proper/commons-beanutils/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  commons-codec:1.9: 
+    Project:      Apache Commons Codec
+    Version:      1.9
+    Available at: http://commons.apache.org/proper/commons-codec/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  commons-collections:3.2.1: 
+    Project:      Commons Collections
+    Version:      3.2.1
+    Available at: http://commons.apache.org/collections/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  commons-io:2.4: 
+    Project:      Commons IO
+    Version:      2.4
+    Available at: http://commons.apache.org/io/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  commons-lang:2.4: 
+    Project:      Commons Lang
+    Version:      2.4
+    Available at: http://commons.apache.org/lang/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  commons-logging:1.2: 
+    Project:      Apache Commons Logging
+    Version:      1.2
+    Available at: http://commons.apache.org/proper/commons-logging/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  dk.brics.automaton:1.11-8: 
+    Project:      Automaton
+    Version:      1.11-8
+    Available at: http://www.brics.dk/automaton/
+    License name: BSD 2-Clause (Simplified or FreeBSD) License
+  
+  io.airlift.airline:0.7: 
+    Project:      airline
+    Version:      0.7
+    Available at: https://github.com/airlift/airline
+    License name: Apache License, version 2.0
+  
+  io.cloudsoft.windows:0.5.0: 
+    Project: 
+      - Java WinRM library
+      - WinRM Client
+    Version:      0.5.0
+    Available at: http://github.com/cloudsoft/winrm4j
+    License name: Apache License, version 2.0
+  
+  io.fabric8.kubernetes-model:1.0.64: 
+    Project:      Fabric8 :: Kubernetes Model
+    Version:      1.0.64
+    Available at: http://fabric8.io/
+    Developed by: Red Hat (http://redhat.com)
+    License name: Apache License, version 2.0
+  
+  io.fabric8.zjsonpatch:0.2.3: 
+    Project:      zjsonpatch
+    Version:      0.2.3
+    Available at: https://github.com/fabric8io/zjsonpatch/
+    License name: Apache License, version 2.0
+  
+  io.fabric8:1.4.27: 
+    Project: 
+      - Fabric8 :: Kubernetes :: Java Client
+      - Fabric8 :: Openshift :: Java Client
+    Version:      1.4.27
+    Available at: http://fabric8.io/
+    Developed by: Red Hat (http://redhat.com)
+    License name: Apache License, version 2.0
+  
+  io.swagger:1.5.6: 
+    Project: 
+      - swagger-annotations
+      - swagger-core
+      - swagger-jaxrs
+      - swagger-models
+    Version:      1.5.6
+    Available at: https://github.com/swagger-api/swagger-core
+    License name: Apache License, version 2.0
+  
+  javax.annotation.javax.annotation-api:1.2: 
+    Project:      javax.annotation API
+    Version:      1.2
+    Available at: http://jcp.org/en/jsr/detail?id=250
+    Developed by: GlassFish Community (https://glassfish.java.net)
+    License name: Common Development and Distribution License, version 1.1
+  
+  javax.annotation.jsr250-api:1.0: 
+    Project:      JSR-250 Common Annotations for the JavaTM Platform
+    Version:      1.0
+    Available at: https://jcp.org/en/jsr/detail?id=250
+    License name: Common Development and Distribution License, version 1.0
+  
+  javax.inject:1: 
+    Project:      javax.inject
+    Version:      1
+    Available at: http://code.google.com/p/atinject/
+    License name: Apache License, version 2.0
+  
+  javax.servlet.javax.servlet-api:3.1.0: 
+    Project:      Java Servlet API
+    Version:      3.1.0
+    Available at: http://servlet-spec.java.net
+    Developed by: GlassFish Community (https://glassfish.dev.java.net)
+    License name: Common Development and Distribution License, version 1.1
+  
+  javax.validation.validation-api:1.1.0.Final: 
+    Project:      Bean Validation API
+    Version:      1.1.0.Final
+    Available at: http://beanvalidation.org/
+    License name: Apache License, version 2.0
+  
+  javax.ws.rs.javax.ws.rs-api:2.0.1: 
+    Project:      javax.ws.rs-api
+    Version:      2.0.1
+    Available at: http://jax-rs-spec.java.net
+    Developed by: Oracle Corporation (http://www.oracle.com/)
+    License name: Common Development and Distribution License, version 1.1
+  
+  joda-time:2.4: 
+    Project:      Joda-Time
+    Version:      2.4
+    Available at: http://www.joda.org/joda-time/
+    Developed by: Joda.org (http://www.joda.org)
+    License name: Apache License, version 2.0
+  
+  net.i2p.crypto.eddsa:0.1.0: 
+    Project:      ed25519-java
+    Version:      0.1.0
+    Available at: https://github.com/str4d/ed25519-java
+    License name: Public Domain
+  
+  net.iharder.base64:2.3.8: 
+    Project:      base64
+    Version:      2.3.8
+    Available at: http://iharder.net/base64/
+    License name: Public Domain
+  
+  net.java.dev.jna:4.1.0: 
+    Project: 
+      - Java Native Access
+      - Java Native Access Platform
+    Version:      4.1.0
+    Available at: https://github.com/twall/jna
+    License name: GNU Lesser General Public License, version 2.1
+  
+  net.minidev.accessors-smart:1.2: 
+    Project:      ASM based accessors helper used by json-smart
+    Version:      1.2
+    Available at: http://www.minidev.net/
+    Developed by: Chemouni Uriel (http://www.minidev.net/)
+    License name: Apache License, version 2.0
+  
+  net.minidev.json-smart:2.3: 
+    Project:      JSON Small and Fast Parser
+    Version:      2.3
+    Available at: http://www.minidev.net/
+    Developed by: Chemouni Uriel (http://www.minidev.net/)
+    License name: Apache License, version 2.0
+  
+  org.apache.commons.commons-compress:1.4: 
+    Project:      Commons Compress
+    Version:      1.4
+    Available at: http://commons.apache.org/compress/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.commons.commons-lang3:3.3.2: 
+    Project:      Apache Commons Lang
+    Version:      3.3.2
+    Available at: http://commons.apache.org/proper/commons-lang/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.cxf:3.1.10: 
+    Project:      Apache CXF
+    Version:      3.1.10
+    Available at: http://cxf.apache.org
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.felix.org.apache.felix.framework:5.6.1: 
+    Project:      Apache Felix Framework
+    Version:      5.6.1
+    Available at: http://felix.apache.org/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.httpcomponents.httpasyncclient:4.1.2: 
+    Project:      Apache HttpAsyncClient
+    Version:      4.1.2
+    Available at: http://hc.apache.org/httpcomponents-asyncclient
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.httpcomponents.httpclient:4.5.2: 
+    Project:      Apache HttpClient
+    Version:      4.5.2
+    Available at: http://hc.apache.org/httpcomponents-client-ga
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.httpcomponents:4.4.4: 
+    Project: 
+      - Apache HttpCore
+      - Apache HttpCore NIO
+    Version:      4.4.4
+    Available at: http://hc.apache.org/httpcomponents-core-ga
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.jclouds:2.1.0: 
+    Project:      Apache jclouds
+    Version:      2.1.0
+    Available at: http://jclouds.apache.org/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.neethi:3.0.3: 
+    Project:      Apache Neethi
+    Version:      3.0.3
+    Available at: http://ws.apache.org/neethi/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.ws.xmlschema.xmlschema-core:2.2.1: 
+    Project:      XmlSchema Core
+    Version:      2.2.1
+    Available at: http://ws.apache.org/commons/xmlschema20/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.bouncycastle:1.51: 
+    Project: 
+      - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs
+      - Bouncy Castle Provider
+    Version:      1.51
+    Available at: http://www.bouncycastle.org/java.html
+    License name: MIT License
+    Notice:       Copyright (c) The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)
+  
+  org.codehaus.groovy.groovy-all:2.3.7: 
+    Project:      Groovy
+    Version:      2.3.7
+    Available at: http://groovy.codehaus.org/
+    Developed by: The Codehaus (http://codehaus.org)
+    License name: Apache License, version 2.0
+  
+  org.codehaus.woodstox.stax2-api:3.1.4: 
+    Project:      Stax2 API
+    Version:      3.1.4
+    Available at: http://wiki.fasterxml.com/WoodstoxStax2
+    Developed by: fasterxml.com (http://fasterxml.com)
+    License name: BSD 2-Clause (Simplified or FreeBSD) License
+  
+  org.codehaus.woodstox.woodstox-core-asl:4.4.1: 
+    Project:      Woodstox
+    Version:      4.4.1
+    Available at: http://woodstox.codehaus.org
+    Developed by: Codehaus (http://www.codehaus.org/)
+    License name: Apache License, version 2.0
+  
+  org.eclipse.jetty.toolchain.jetty-schemas:3.1.M0: 
+    Project:      Jetty :: Schemas
+    Version:      3.1.M0
+    Available at: http://www.eclipse.org/jetty
+    Developed by: Mort Bay Consulting (http://www.mortbay.com)
+    License name: Apache License, version 2.0
+  
+  org.eclipse.jetty:9.3.14.v20161028: 
+    Project:      Jetty Server
+    Version:      9.3.14.v20161028
+    Available at: http://www.eclipse.org/jetty
+    Developed by: Webtide (http://webtide.com)
+    License name: Apache License, version 2.0
+  
+  org.freemarker:2.3.25-incubating: 
+    Project:      Apache FreeMarker
+    Version:      2.3.25-incubating
+    Available at: http://freemarker.org/
+    Developed by: Apache Software Foundation (http://apache.org)
+    License name: Apache License, version 2.0
+  
+  org.glassfish.external.opendmk_jmxremote_optional_jar:1.0-b01-ea: 
+    Project:      opendmk_jmxremote_optional_jar
+    Version:      1.0-b01-ea
+    Available at: https://opendmk.java.net/
+    License name: Common Development and Distribution License, version 1.1
+  
+  org.hamcrest.hamcrest-core:1.3: 
+    Project:      Hamcrest Core
+    Version:      1.3
+    Available at: https://github.com/hamcrest/JavaHamcrest
+    License name: BSD 3-Clause (New BSD) License
+  
+  org.hibernate.jtidy:r8-20060801: 
+    Project:      JTidy
+    Version:      r8-20060801
+    Available at: http://jtidy.sourceforge.net
+    License name: Java HTML Tidy License
+  
+  org.javassist:3.19.0-GA: 
+    Project:      Javassist
+    Version:      3.19.0-GA
+    Available at: http://www.javassist.org/
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) Shigeru Chiba
+  
+  org.mongodb.mongo-java-driver:3.0.3: 
+    Project:      MongoDB Java Driver
+    Version:      3.0.3
+    Available at: http://www.mongodb.org
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) MongoDB, Inc
+  
+  org.osgi.org.osgi.core:6.0.0: 
+    Project:      org.osgi.core
+    Version:      6.0.0
+    Available at: http://www.osgi.org
+    Developed by: OSGi Alliance (http://www.osgi.org)
+    License name: Apache License, version 2.0
+  
+  org.ow2.asm:5.0.4: 
+    Project:      ASM Core
+    Version:      5.0.4
+    Available at: http://asm.objectweb.org/
+    Developed by: ObjectWeb (http://www.objectweb.org/)
+    License name: BSD 3-Clause (New BSD) License
+    Notice:       Copyright (c) 2000-2011 INRIA, France Telecom
+  
+  org.reflections:0.9.10: 
+    Project:      Reflections
+    Version:      0.9.10
+    Available at: http://github.com/ronmamo/reflections
+    License name: BSD 3-Clause (New BSD) License
+  
+  org.slf4j:1.7.25: 
+    Project:      Simple Logging Framework for Java
+    Version:      1.7.25
+    Available at: http://www.slf4j.org
+    Developed by: QOS.ch (http://www.qos.ch)
+    License name: MIT License
+  
+  org.tukaani.xz:1.0: 
+    Project:      XZ for Java
+    Version:      1.0
+    Available at: http://tukaani.org/xz/java.html
+    License name: Public Domain
+  
+  org.xmlunit:2.3.0: 
+    Project: 
+      - org.xmlunit:xmlunit-core
+      - org.xmlunit:xmlunit-matchers
+    Version:      2.3.0
+    Available at: http://www.xmlunit.org/
+    Developed by: XMLUnit (http://www.xmlunit.org/)
+    License name: Apache License, version 2.0
+  
+  org.yaml.snakeyaml:1.17: 
+    Project:      SnakeYAML
+    Version:      1.17
+    Available at: http://www.snakeyaml.org
+    License name: Apache License, version 2.0
+  
+  wsdl4j:1.6.3: 
+    Project:      WSDL4J
+    Version:      1.6.3
+    Available at: http://sf.net/projects/wsdl4j
+    License name: Common Public License, version 1.0
+  
+  xml-resolver:1.2: 
+    Project:      XML Commons Resolver Component
+    Version:      1.2
+    Available at: http://xml.apache.org/commons/components/resolver/
+    Developed by: Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  xmlpull:1.1.3.1: 
+    Project:      XML Pull Parsing API
+    Version:      1.1.3.1
+    Available at: http://www.xmlpull.org
+    License name: Public Domain
+  
+  xpp3.xpp3_min:1.1.4c: 
+    Project:      MXP1: Xml Pull Parser 3rd Edition (XPP3)
+    Version:      1.1.4c
+    Available at: http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/
+    Developed by: Extreme! Lab, Indiana University (http://www.extreme.indiana.edu/)
+    License name: Indiana University Extreme! Lab Software License, vesion 1.1.1
+    Notice:       Copyright (c) Extreme! Lab, Indiana University
+  
