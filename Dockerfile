@@ -17,7 +17,7 @@
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
 # and PhantomJS
-FROM maven:3.5.2-jdk-8-slim
+FROM maven:3.5.2-jdk-8
 
 # Install the non-headless JRE as some tests requires them
 RUN apt-get update && apt-get install -y openjdk-8-jre
@@ -28,4 +28,13 @@ RUN apt-get update && apt-get install -y \
     procps \
     golang-go \
     rpm \
-    dpkg
+    dpkg \
+    libpng-dev \
+    make \
+    automake \
+    autoconf \
+    libtool \
+    dpkg \
+    pkg-config \
+    nasm \
+    gcc \
