@@ -42,6 +42,18 @@ Or to run straight after the build, do:
     bin/brooklyn launch
 
 
+### Non-Git Build
+
+If you are performing a build on code not in source control (e.g. from a ZIP of source code, or after deleting SCM metadata),
+you will need to manually set two variables that are normally inferred from the environment:
+
+    * `-DbuildNumber=manual`
+    * `-DscmBranch=manual`
+
+You can set these properties to any value you wish. When using a checkout from git, the `buildNumber` is set to the SHA1 commit ID (short form)
+of the containing project, and the `scmBranch` is set to the git branch.
+
+
 ### Resources
 
 <!--- BROOKLYN_VERSION_BELOW -->
