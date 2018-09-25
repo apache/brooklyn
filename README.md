@@ -15,14 +15,14 @@ where you'll find:
 
 ### Quick Start
 
-This is the uber-repo. To build the entire codebase, 
+This is the uber-repo. To build the entire codebase,
 get this project and its sub-modules:
 
     git clone http://github.com/apache/brooklyn/
     cd brooklyn
     git submodule init
     git submodule update --remote --merge --recursive
-    
+
 And then, with jdk 1.8+ and maven 3.1+ installed:
 
     mvn clean install -Dno-go-client -Dno-rpm -Dno-deb
@@ -32,7 +32,18 @@ alternative: a docker container to build this project:
 
 ```bash
 docker build -t brooklyn .
-docker run -i --rm --name brooklyn -v ${HOME}/.m2:/root/.m2 -v ${PWD}:/usr/build -w /usr/build brooklyn mvn clean install
+docker run -i --rm --name brooklyn -u $(id -u):$(id -g) \
+      --mount type=bind,source="${HOME}/.m2/settings.xml",target=/var/maven/.m2/settings.xml,readonly \
+      -v ${PWD}:/usr/build -w /usr/build \
+      brooklyn mvn clean install -Duser.home=/var/maven -Duser.name=$(id -un)
+```
+
+You can speed this up by using your local .m2 cache:
+```bash
+docker run -i --rm --name brooklyn -u $(id -u):$(id -g) \
+      -v ${HOME}/.m2:/var/maven/.m2 \
+      -v ${PWD}:/usr/build -w /usr/build \
+      brooklyn mvn clean install -Duser.home=/var/maven -Duser.name=$(id -un)
 ```
 
 The results are in `brooklyn-dist/dist/target/`, including a tar and a zip.
