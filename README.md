@@ -49,8 +49,10 @@ docker run -i --rm --name brooklyn -u $(id -u):$(id -g) \
 The results are in `brooklyn-dist/dist/target/`, including a tar and a zip.
 Or to run straight after the build, do:
 
-    pushd brooklyn-dist/dist/target/brooklyn-dist/brooklyn/
-    bin/brooklyn launch
+```bash
+pushd brooklyn-dist/karaf/apache-brooklyn/target/assembly/
+./bin/start
+```
 
 
 ### Resources
