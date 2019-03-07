@@ -80,11 +80,11 @@
 
     <profiles>
         <profile>
-            <!-- skip the client CLI by setting -Dno-go-client - useful if Go is not available -->
-            <id>go-client</id>
+            <!-- Include the client CLI by setting -Dclient -->
+            <id>client</id>
             <activation>
                 <property>
-                    <name>!no-go-client</name>
+                    <name>client</name>
                 </property>
             </activation>
             <modules>
