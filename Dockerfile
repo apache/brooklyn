@@ -30,6 +30,8 @@ RUN apt-get update && apt-get install -y \
     rpm \
     dpkg \
     libpng-dev \
+    libjpeg-progs \
+    pngquant \
     make \
     automake \
     autoconf \
@@ -39,6 +41,13 @@ RUN apt-get update && apt-get install -y \
     nasm \
     gcc
 
-# For mvn-build
+# Make sure the /.config && /.npm (for UI module builds) is writable for all users
+RUN mkdir -p /.config && chmod -R 777 /.config
+RUN mkdir -p /.npm && chmod -R 777 /.npm
+
+# Make sure the /var/tmp (for RPM build) is writable for all users
+RUN mkdir -p /var/tmp/ && chmod -R 777 /var/tmp/
+
+# Make sure the /var/maven is writable for all users
 RUN mkdir -p /var/maven/.m2/ && chmod -R 777 /var/maven/
 ENV MAVEN_CONFIG=/var/maven/.m2
