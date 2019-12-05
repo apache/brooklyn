@@ -25,7 +25,7 @@ node(label: 'ubuntu') {
     if (env.BRANCH_NAME == 'master') {
         triggers.push(upstream(
             threshold: 'SUCCESS',
-            upstreamProjects: '../brooklyn-server/master, ../brooklyn-library/master, ../brooklyn-ui/master, ../brooklyn-client/master, ../brooklyn-dist/master'
+            upstreamProjects: 'brooklyn-server/master, brooklyn-library/master, brooklyn-ui/master, brooklyn-client/master, brooklyn-dist/master'
         ))
     }
 
