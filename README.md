@@ -1,5 +1,5 @@
 
-# [![**Brooklyn**](https://brooklyn.apache.org/style/img/apache-brooklyn-logo-244px-wide.png)](http://brooklyn.apache.org/)
+# [![**Brooklyn**](https://brooklyn.apache.org/style/img/apache-brooklyn-logo-244px-wide.png)](https://brooklyn.apache.org/)
 
 ### Apache Brooklyn helps to model, deploy, and manage systems.
 
@@ -18,7 +18,7 @@ where you'll find:
 This is the uber-repo. To build the entire codebase,
 get this project and its sub-modules:
 
-    git clone http://github.com/apache/brooklyn/
+    git clone https://github.com/apache/brooklyn/
     cd brooklyn
     git submodule init
     git submodule update --remote --merge --recursive
@@ -62,8 +62,8 @@ pushd brooklyn-dist/karaf/apache-brooklyn/target/assembly/
 If you are performing a build on code not in source control (e.g. from a ZIP of source code, or after deleting SCM metadata),
 you will need to manually set two variables that are normally inferred from the environment:
 
-    * `-DbuildNumber=manual`
-    * `-DscmBranch=manual`
+* `-DbuildNumber=manual`
+* `-DscmBranch=manual`
 
 You can set these properties to any value you wish. When using a checkout from git, the `buildNumber` is set to the SHA1 commit ID (short form)
 of the containing project, and the `scmBranch` is set to the git branch.
@@ -80,7 +80,7 @@ Useful topics include:
 
 * **[setting up Git](https://brooklyn.apache.org/developers/code/git-more.html)** with forks, submodules (or alternatively [avoiding submodules](https://brooklyn.apache.org/developers/code/git-more.html#not-using-submodules)) and other productivity hints
 
-* the **[maven build](http://brooklyn.apache.org/v/latest/dev/env/maven-build.html)** and what to do on build errors
+* the **[maven build](https://brooklyn.apache.org/v/latest/dev/env/maven-build.html)** and what to do on build errors
 
 <!--- BROOKLYN_VERSION_BELOW -->
 * **[project structure](https://brooklyn.apache.org/v/1.0.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
