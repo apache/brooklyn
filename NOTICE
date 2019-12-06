@@ -207,7 +207,14 @@ Runtime dependencies:
     Developed by: Twitter, Inc.
     License name: MIT License
     Notice:       Copyright (c) 2011-2016 Twitter, Inc.
-  
+
+  ch.qos.logback:1.0.7
+    Project:      Logback Classic Module / Logback Core Module
+    Version:      1.0.7
+    Available at: http://logback.qos.ch
+    Developed by: QOS.ch (http://www.qos.ch)
+    Licenses:     Eclipse Public License - v 1.0 (http://www.eclipse.org/legal/epl-v10.html); GNU Lesser General Public License (http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
+
   ch.qos.logback:1.0.7: 
     Project:      Logback Logging Framework
     Version:      1.0.7
