@@ -31,7 +31,7 @@ However, this will not build the RPM/DEB packages, as well as the CLI. That's wh
 alternative: a docker container to build this project:
 
 ```bash
-docker build -t brooklyn .
+docker build -t brooklyn docker/
 docker run -i --rm --name brooklyn -u $(id -u):$(id -g) \
       --mount type=bind,source="${HOME}/.m2/settings.xml",target=/var/maven/.m2/settings.xml,readonly \
       -v /var/run/docker.sock:/var/run/docker.sock \
