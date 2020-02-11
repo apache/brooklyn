@@ -20,13 +20,20 @@
 FROM maven:3.6.3-jdk-8
 
 # Install the non-headless JRE as some tests requires them
-RUN apt-get update && apt-get install -y openjdk-8-jre
+# From maven:3.5.4-jdk-8 onwards, openjdk-8-jre is not available by default so we need to install it manually
+# See https://adoptopenjdk.net/installation.html#linux-pkg
+RUN wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | apt-key add - && \
+    apt-get update && \
+    apt-get install -y software-properties-common && \
+    add-apt-repository --yes https://adoptopenjdk.jfrog.io/adoptopenjdk/deb/ && \
+    apt-get update && \
+    apt-get install -y adoptopenjdk-8-hotspot
 
 # Install necessary binaries to build brooklyn
 # Strictly speaking, rsync, gpg, tar, and zip are only necessary
 # if you are creating release artifacts, but they are fairly
 # low footprint
-RUN apt-get update && apt-get install -y \
+RUN apt-get install -y \
     git-core \
     procps \
     golang-go \
