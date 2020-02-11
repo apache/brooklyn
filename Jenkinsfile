@@ -49,7 +49,7 @@ node(label: 'ubuntu') {
                 sh 'git submodule init'
                 sh 'git submodule update --remote --merge --recursive'
                 echo 'Building docker image for test environment ...'
-                environmentDockerImage = docker.build('brooklyn:${DOCKER_TAG}', 'docker')
+                environmentDockerImage = docker.build('brooklyn:${DOCKER_TAG}', './docker')
             }
 
             stage('Run tests') {
