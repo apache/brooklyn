@@ -19,9 +19,6 @@
 # and PhantomJS
 FROM maven:3.5.4-jdk-8
 
-# Install the non-headless JRE as some tests requires them
-RUN apt-get update && apt-get install -y openjdk-8-jre
-
 # Install necessary binaries to build brooklyn
 # Strictly speaking, rsync, gpg, tar, and zip are only necessary
 # if you are creating release artifacts, but they are fairly
