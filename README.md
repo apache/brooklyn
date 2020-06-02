@@ -25,9 +25,9 @@ get this project and its sub-modules:
 
 And then, with jdk 1.8+ and maven 3.1+ installed:
 
-    mvn clean install -Dno-go-client -Dno-rpm -Dno-deb -DskipDocker
+    mvn clean install
 
-However, you won't be able to build the RPM/DEB packages, as well as the CLI. That's why we would recommand to use the
+However, this will not build the RPM/DEB packages, as well as the CLI. That's why we would recommand to use the
 alternative: a docker container to build this project:
 
 ```bash
@@ -36,7 +36,7 @@ docker run -i --rm --name brooklyn -u $(id -u):$(id -g) \
       --mount type=bind,source="${HOME}/.m2/settings.xml",target=/var/maven/.m2/settings.xml,readonly \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -v ${PWD}:/usr/build -w /usr/build \
-      brooklyn mvn clean install -Duser.home=/var/maven -Duser.name=$(id -un)
+      brooklyn mvn clean install -Duser.home=/var/maven -Duser.name=$(id -un) -Drpm -Ddeb -Dclient -Ddocker
 ```
 
 You can speed this up by using your local .m2 cache:
@@ -45,7 +45,7 @@ docker run -i --rm --name brooklyn -u $(id -u):$(id -g) \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -v ${HOME}/.m2:/var/maven/.m2 \
       -v ${PWD}:/usr/build -w /usr/build \
-      brooklyn mvn clean install -Duser.home=/var/maven -Duser.name=$(id -un)
+      brooklyn mvn clean install -Duser.home=/var/maven -Duser.name=$(id -un) -Drpm -Ddeb -Dclient -Ddocker
 ```
 
 The results are in `brooklyn-dist/dist/target/`, including a tar and a zip.
@@ -72,7 +72,7 @@ of the containing project, and the `scmBranch` is set to the git branch.
 ### Resources
 
 <!--- BROOKLYN_VERSION_BELOW -->
-The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (1.0.0-SNAPSHOT)](https://brooklyn.apache.org/v/1.0.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
+The **[Developers](https://brooklyn.apache.org/developers/)** section of the main website contains more detail on working with the codebase. There is also a more **Developer Guide** specific to each version, including [this branch (1.1.0-SNAPSHOT)](https://brooklyn.apache.org/v/1.1.0-SNAPSHOT/dev/), [latest stable](https://brooklyn.apache.org/v/latest/dev/), and [older releases](https://brooklyn.apache.org/meta/versions.html).
 
 Useful topics include:
 
@@ -83,7 +83,7 @@ Useful topics include:
 * the **[maven build](https://brooklyn.apache.org/v/latest/dev/env/maven-build.html)** and what to do on build errors
 
 <!--- BROOKLYN_VERSION_BELOW -->
-* **[project structure](https://brooklyn.apache.org/v/1.0.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
+* **[project structure](https://brooklyn.apache.org/v/1.1.0-SNAPSHOT/dev/code/structure.html)** of the codebase and submodules
 
 * the **[people](https://brooklyn.apache.org/community/)** behind Apache Brooklyn
 
