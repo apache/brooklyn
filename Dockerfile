@@ -17,7 +17,7 @@
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
 # and PhantomJS
-FROM maven:3.5.4-jdk-8
+FROM maven:3.6.3-jdk-8
 
 # Install necessary binaries to build brooklyn
 # Strictly speaking, rsync, gpg, tar, and zip are only necessary
@@ -26,7 +26,6 @@ FROM maven:3.5.4-jdk-8
 RUN apt-get update && apt-get install -y \
     git-core \
     procps \
-    golang-go \
     rpm \
     dpkg \
     libpng-dev \
@@ -45,6 +44,16 @@ RUN apt-get update && apt-get install -y \
     tar \
     zip
 
+RUN cd /tmp \
+&& curl -O https://dl.google.com/go/go1.15.8.linux-amd64.tar.gz \
+&& CKSUM=$(sha256sum go1.15.8.linux-amd64.tar.gz | awk '{print $1}') \
+&& [ ${CKSUM} = "d3379c32a90fdf9382166f8f48034c459a8cc433730bc9476d39d9082c94583b" ] \
+&& tar xf go1.15.8.linux-amd64.tar.gz \
+&& rm go1.15.8.linux-amd64.tar.gz \
+&& chown -R root:root ./go \
+&& mv go /usr/local
+
+ENV PATH="${PATH}:/usr/local/go/bin"
 # Make sure the /.config && /.npm (for UI module builds) is writable for all users
 RUN mkdir -p /.config && chmod -R 777 /.config
 RUN mkdir -p /.npm && chmod -R 777 /.npm
