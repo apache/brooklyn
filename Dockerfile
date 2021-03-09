@@ -17,7 +17,7 @@
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
 # and PhantomJS
-FROM maven:3.6.3-jdk-8
+FROM maven:3.5.4-jdk-8
 
 # Install necessary binaries to build brooklyn
 # Strictly speaking, rsync, gpg, tar, and zip are only necessary
