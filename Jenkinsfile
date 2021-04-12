@@ -54,7 +54,7 @@ node(label: 'ubuntu') {
 
             stage('Run tests') {
                 environmentDockerImage.inside('-i --name brooklyn-${DOCKER_TAG} -v ${WORKSPACE}/.m2:/var/maven/.m2 --mount type=bind,source="${HOME}/.m2/settings.xml",target=/var/maven/.m2/settings.xml,readonly -v ${WORKSPACE}:/usr/build -w /usr/build') {
-                    sh 'mvn clean install -Prpm -Pdeb -Duser.home=/var/maven -Duser.name=jenkins'
+                    sh 'MAVEN_OPTS=-Xmx4G; mvn clean install -Prpm -Pdeb -Duser.home=/var/maven -Duser.name=jenkins'
                 }
             }
 
