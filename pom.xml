@@ -74,7 +74,7 @@
 
     <modules>
         <module>brooklyn-server</module>
-        <module>brooklyn-ui</module>
+<!--        <module>brooklyn-ui</module>-->
         <module>brooklyn-library</module>
     </modules>
 
