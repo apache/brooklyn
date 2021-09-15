@@ -48,6 +48,7 @@ node(label: 'ubuntu') {
                 sh 'mkdir -p ${WORKSPACE}/.m2'
                 sh 'git submodule init'
                 sh 'git submodule update --remote --merge --recursive'
+                sh 'docker logout'   // needed because sometimes cached credentials break the following step (creds aren't needed)
                 echo 'Building docker image for test environment ...'
                 environmentDockerImage = docker.build('brooklyn:${DOCKER_TAG}')
             }
