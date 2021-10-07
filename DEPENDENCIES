@@ -241,15 +241,15 @@ Runtime dependencies:
     License name: MIT License
     Notice:       Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others
   
-  com.fasterxml.jackson:2.10.1: 
+  com.fasterxml.jackson:2.11.3: 
     Project:      Jackson FasterXML
-    Version:      2.10.1
+    Version:      2.11.3
     Available at: 
       - http://github.com/FasterXML/jackson
-      - http://wiki.fasterxml.com/JacksonModuleJoda
       - https://github.com/FasterXML/jackson-core
       - https://github.com/FasterXML/jackson-dataformat-xml
       - https://github.com/FasterXML/jackson-dataformats-text
+      - https://github.com/FasterXML/jackson-datatype-joda
       - https://github.com/FasterXML/jackson-modules-base
       - https://github.com/FasterXML/jackson-modules-java8
     Developed by: FasterXML (http://fasterxml.com/)
@@ -285,6 +285,12 @@ Runtime dependencies:
     Project:      error-prone annotations
     Version:      2.1.0
     Available at: http://nexus.sonatype.org/oss-repository-hosting.html
+    License name: Apache License, version 2.0
+  
+  com.google.guava.failureaccess:1.0.1: 
+    Project:      Guava InternalFutureFailureAccess and InternalFutures
+    Version:      1.0.1
+    Available at: https://github.com/google/guava
     License name: Apache License, version 2.0
   
   com.google.guava:18.0: 
@@ -370,12 +376,19 @@ Runtime dependencies:
     License name: Apache License, version 2.0
     Notice:       Copyright (c) Square, Inc.
   
-  com.squareup.okio:1.2.0: 
+  com.squareup.okio:1.15.0: 
     Project:      Okio
-    Version:      1.2.0
+    Version:      1.15.0
     Available at: https://github.com/square/okio
     License name: Apache License, version 2.0
     Notice:       Copyright (c) Square, Inc.
+  
+  com.sun.activation.jakarta.activation:1.2.2: 
+    Project:      Jakarta Activation
+    Version:      1.2.2
+    Available at: https://github.com/eclipse-ee4j/jaf
+    Developed by: Eclipse Foundation (https://www.eclipse.org)
+    License name: Eclipse Distribution License, version 1.0
   
   com.sun.activation.javax.activation:1.2.0: 
     Project:      JavaBeans Activation Framework
@@ -391,16 +404,9 @@ Runtime dependencies:
     Developed by: Eclipse Foundation (https://www.eclipse.org)
     License name: Eclipse Distribution License, version 1.0
   
-  com.sun.xml.fastinfoset.FastInfoset:1.2.16: 
-    Project:      fastinfoset
-    Version:      1.2.16
-    Available at: https://projects.eclipse.org/projects/ee4j.jaxb-impl
-    Developed by: Eclipse Foundation (https://www.eclipse.org)
-    License name: Apache License, version 2.0
-  
-  com.thoughtworks.xstream:1.4.11.1: 
+  com.thoughtworks.xstream:1.4.18: 
     Project:      XStream Core
-    Version:      1.4.11.1
+    Version:      1.4.18
     Available at: http://x-stream.github.io/
     Developed by: XStream (http://x-stream.github.io)
     License name: BSD 3-Clause (New BSD) License
@@ -420,10 +426,10 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  commons-codec:1.11: 
+  commons-codec:1.15: 
     Project:      Apache Commons Codec
-    Version:      1.11
-    Available at: http://commons.apache.org/proper/commons-codec/
+    Version:      1.15
+    Available at: https://commons.apache.org/proper/commons-codec/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
@@ -848,11 +854,11 @@ Runtime dependencies:
     Available at: https://github.com/airlift/airline
     License name: Apache License, version 2.0
   
-  io.cloudsoft.windows:0.9.0: 
+  io.cloudsoft.windows:0.12.3: 
     Project: 
       - Java WinRM library
       - WinRM Client
-    Version:      0.9.0
+    Version:      0.12.3
     Available at: http://github.com/cloudsoft/winrm4j
     License name: Apache License, version 2.0
   
@@ -873,13 +879,20 @@ Runtime dependencies:
     Developed by: Red Hat (http://redhat.com)
     License name: Apache License, version 2.0
   
-  io.swagger:1.5.6: 
+  io.github.x-stream.mxparser:1.2.2: 
+    Project:      MXParser
+    Version:      1.2.2
+    Available at: http://x-stream.github.io/mxparser
+    License name: Indiana University Extreme! Lab Software License, vesion 1.2
+    Notice:       Copyright (c) Extreme! Lab, Indiana University
+  
+  io.swagger:1.6.2: 
     Project: 
       - swagger-annotations
       - swagger-core
       - swagger-jaxrs
       - swagger-models
-    Version:      1.5.6
+    Version:      1.6.2
     Available at: https://github.com/swagger-api/swagger-core
     License name: Apache License, version 2.0
   
@@ -901,12 +914,19 @@ Runtime dependencies:
     License name: MIT License
     Notice:       Copyright (c) 2015 Matt Andrews
   
-  jakarta.activation.jakarta.activation-api:1.2.1: 
-    Project:      JavaBeans Activation Framework API jar
-    Version:      1.2.1
+  jakarta.activation.jakarta.activation-api:1.2.2: 
+    Project:      Jakarta Activation API jar
+    Version:      1.2.2
     Available at: https://github.com/eclipse-ee4j/jaf
     Developed by: Eclipse Foundation (https://www.eclipse.org)
     License name: Eclipse Distribution License, version 1.0
+  
+  jakarta.annotation.jakarta.annotation-api:1.3.5: 
+    Project:      Jakarta Annotations API
+    Version:      1.3.5
+    Available at: https://projects.eclipse.org/projects/ee4j.ca
+    Developed by: Eclipse Foundation (https://www.eclipse.org)
+    License name: Eclipse Public License, version 2.0
   
   jakarta.ws.rs.jakarta.ws.rs-api:2.1.5: 
     Project:      javax.ws.rs-api
@@ -915,9 +935,9 @@ Runtime dependencies:
     Developed by: Eclipse Foundation (https://www.eclipse.org/org/foundation/)
     License name: Eclipse Public License, version 2.0
   
-  jakarta.xml.bind.jakarta.xml.bind-api:2.3.2: 
-    Project:      jakarta.xml.bind-api
-    Version:      2.3.2
+  jakarta.xml.bind.jakarta.xml.bind-api:2.3.3: 
+    Project:      Jakarta XML Binding API
+    Version:      2.3.3
     Available at: https://github.com/eclipse-ee4j/jaxb-api
     Developed by: Eclipse Foundation (https://www.eclipse.org)
     License name: Eclipse Distribution License, version 1.0
@@ -1041,11 +1061,11 @@ Runtime dependencies:
     Available at: http://iharder.net/base64/
     License name: Public Domain
   
-  net.java.dev.jna:5.5.0: 
+  net.java.dev.jna:5.6.0: 
     Project: 
       - Java Native Access
       - Java Native Access Platform
-    Version:      5.5.0
+    Version:      5.6.0
     Available at: https://github.com/java-native-access/jna
     License name: Apache License, version 2.0
   
@@ -1101,37 +1121,44 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.cxf:3.3.5: 
+  org.apache.cxf:3.3.9: 
     Project:      Apache CXF
-    Version:      3.3.5
+    Version:      3.3.9
     Available at: https://cxf.apache.org
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.configadmin:1.9.16: 
-    Project:      Apache Felix Configuration Admin Service
-    Version:      1.9.16
+  org.apache.felix.org.apache.felix.configadmin.plugin.interpolation:1.1.0: 
+    Project:      Apache Felix Configuration Admin Values Interpolation Plugin
+    Version:      1.1.0
     Available at: http://felix.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.fileinstall:3.6.4: 
-    Project:      Apache Felix File Install
-    Version:      3.6.4
-    Available at: http://felix.apache.org/site/apache-felix-file-install.html
-    Developed by: The Apache Software Foundation (http://www.apache.org/)
-    License name: Apache License, version 2.0
-  
-  org.apache.felix.org.apache.felix.framework:5.6.12: 
-    Project:      Apache Felix Framework
-    Version:      5.6.12
+  org.apache.felix.org.apache.felix.configadmin:1.9.18: 
+    Project:      Apache Felix Configuration Admin Service
+    Version:      1.9.18
     Available at: http://felix.apache.org/
-    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.utils:1.11.2: 
+  org.apache.felix.org.apache.felix.fileinstall:3.6.8: 
+    Project:      Apache Felix File Install
+    Version:      3.6.8
+    Available at: http://felix.apache.org/site/apache-felix-file-install.html
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.felix.org.apache.felix.framework:6.0.3: 
+    Project:      Apache Felix Framework
+    Version:      6.0.3
+    Available at: http://felix.apache.org/
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.felix.org.apache.felix.utils:1.11.4: 
     Project:      Apache Felix Utils
-    Version:      1.11.2
+    Version:      1.11.4
     Available at: http://felix.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
@@ -1179,18 +1206,23 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.httpcomponents.httpclient:4.5.10: 
+  org.apache.httpcomponents.httpclient:4.5.13: 
     Project:      Apache HttpClient
-    Version:      4.5.10
+    Version:      4.5.13
     Available at: http://hc.apache.org/httpcomponents-client-ga
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.httpcomponents:4.4.12: 
-    Project: 
-      - Apache HttpCore
-      - Apache HttpCore NIO
+  org.apache.httpcomponents.httpcore-nio:4.4.12: 
+    Project:      Apache HttpCore NIO
     Version:      4.4.12
+    Available at: http://hc.apache.org/httpcomponents-core-ga
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.httpcomponents.httpcore:4.4.14: 
+    Project:      Apache HttpCore
+    Version:      4.4.14
     Available at: http://hc.apache.org/httpcomponents-core-ga
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
@@ -1202,7 +1234,7 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.karaf:4.2.8: 
+  org.apache.karaf:4.3.0: 
     Project: 
       - "Apache Karaf :: Assemblies :: Features :: Base"
       - "Apache Karaf :: Assemblies :: Features :: Framework"
@@ -1219,7 +1251,7 @@ Runtime dependencies:
       - "Apache Karaf :: Specs :: Java Xml WS"
       - "Apache Karaf :: Specs :: Locator"
       - "Apache Karaf :: Util"
-    Version:      4.2.8
+    Version:      4.3.0
     Available at: https://www.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
@@ -1253,9 +1285,9 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.sshd.sshd-core:1.7.0: 
-    Project:      "Apache Mina SSHD :: Core"
-    Version:      1.7.0
+  org.apache.sshd.sshd-osgi:2.5.1: 
+    Project:      "Apache Mina SSHD :: OSGi"
+    Version:      2.5.1
     Available at: http://www.apache.org/
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
@@ -1267,11 +1299,11 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.bouncycastle:1.61: 
+  org.bouncycastle:1.67: 
     Project: 
       - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs
       - Bouncy Castle Provider
-    Version:      1.61
+    Version:      1.67
     Available at: 
       - http://www.bouncycastle.org/java.html
       - https://www.bouncycastle.org/java.html
@@ -1285,6 +1317,13 @@ Runtime dependencies:
     Developed by: Apache Software Foundation (http://groovy-lang.org)
     License name: Apache License, version 2.0
   
+  org.codehaus.mojo.animal-sniffer-annotations:1.9: 
+    Project:      Animal Sniffer Annotations
+    Version:      1.9
+    Available at: http://mojo.codehaus.org/animal-sniffer
+    Developed by: Codehaus (http://codehaus.org)
+    License name: MIT License
+  
   org.codehaus.woodstox.stax2-api:3.1.4: 
     Project:      Stax2 API
     Version:      3.1.4
@@ -1292,7 +1331,7 @@ Runtime dependencies:
     Developed by: fasterxml.com (http://fasterxml.com)
     License name: BSD 2-Clause (Simplified or FreeBSD) License
   
-  org.eclipse.jetty:9.4.22.v20191022: 
+  org.eclipse.jetty:9.4.39.v20210325: 
     Project: 
       - "Jetty :: Http Utility"
       - "Jetty :: IO Utility"
@@ -1300,24 +1339,25 @@ Runtime dependencies:
       - "Jetty :: Server Core"
       - "Jetty :: Servlet Handling"
       - "Jetty :: Utilities"
+      - "Jetty :: Utilities :: Ajax(JSON)"
       - "Jetty :: Webapp Application Support"
       - "Jetty :: XML utilities"
-    Version:      9.4.22.v20191022
-    Available at: http://www.eclipse.org/jetty
+    Version:      9.4.39.v20210325
+    Available at: https://eclipse.org/jetty
     Developed by: Webtide (https://webtide.com)
     License name: Apache License, version 2.0
   
-  org.eclipse.platform.org.eclipse.osgi:3.12.100: 
+  org.eclipse.platform.org.eclipse.osgi:3.16.0: 
     Project:      OSGi System Bundle
-    Version:      3.12.100
+    Version:      3.16.0
     Available at: http://www.eclipse.org/platform
     Developed by: Eclipse Foundation (http://www.eclipse.org/)
     License name: Eclipse Public License, version 1.0
   
-  org.freemarker:2.3.25-incubating: 
+  org.freemarker:2.3.31: 
     Project:      Apache FreeMarker
-    Version:      2.3.25-incubating
-    Available at: http://freemarker.org/
+    Version:      2.3.31
+    Available at: https://freemarker.apache.org/
     Developed by: Apache Software Foundation (http://apache.org)
     License name: Apache License, version 2.0
   
@@ -1327,13 +1367,13 @@ Runtime dependencies:
     Available at: https://opendmk.java.net/
     License name: Common Development and Distribution License, version 1.1
   
-  org.glassfish.jaxb:2.3.2: 
+  org.glassfish.jaxb:2.3.3: 
     Project: 
       - JAXB Runtime
       - TXW2 Runtime
-    Version:      2.3.2
-    Available at: https://javaee.github.io/jaxb-v2/
-    Developed by: Oracle Corporation (http://www.oracle.com/)
+    Version:      2.3.3
+    Available at: https://eclipse-ee4j.github.io/jaxb-ri
+    Developed by: Eclipse Foundation (https://www.eclipse.org)
     License name: Eclipse Distribution License, version 1.0
   
   org.hamcrest.hamcrest-core:1.3: 
@@ -1342,6 +1382,12 @@ Runtime dependencies:
     Available at: https://github.com/hamcrest/JavaHamcrest
     License name: BSD 3-Clause (New BSD) License
   
+  org.hibernate.jtidy:r8-20060801: 
+    Project:      JTidy
+    Version:      r8-20060801
+    Available at: http://jtidy.sourceforge.net
+    License name: Java HTML Tidy License
+  
   org.javassist:3.19.0-GA: 
     Project:      Javassist
     Version:      3.19.0-GA
@@ -1349,21 +1395,21 @@ Runtime dependencies:
     License name: Apache License, version 2.0
     Notice:       Copyright (c) Shigeru Chiba
   
-  org.jline:3.13.2: 
+  org.jline:3.16.0: 
     Project:      JLine Bundle
-    Version:      3.13.2
+    Version:      3.16.0
     Available at: http://nexus.sonatype.org/oss-repository-hosting.html
     License name: BSD 3-Clause (New BSD) License
     Notice: 
       - Copyright (c) 2002-2018, the original author or authors.
       - Neither the name of JLine nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
   
-  org.jvnet.staxex.stax-ex:1.8.1: 
-    Project:      Extended StAX API
-    Version:      1.8.1
-    Available at: https://projects.eclipse.org/projects/ee4j
-    Developed by: Eclipse Foundation (https://www.eclipse.org)
-    License name: Eclipse Distribution License, version 1.0
+  org.mongodb.mongo-java-driver:3.0.3: 
+    Project:      MongoDB Java Driver
+    Version:      3.0.3
+    Available at: http://www.mongodb.org
+    License name: Apache License, version 2.0
+    Notice:       Copyright (c) MongoDB, Inc
   
   org.ops4j.base.ops4j-base-util-collections:1.5.1: 
     Project:      OPS4J Base - Util - Collections
@@ -1372,20 +1418,11 @@ Runtime dependencies:
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
   
-  org.ops4j.base:1.5.0: 
-    Project: 
-      - OPS4J Base - Lang
-      - OPS4J Base - Util - Property
-    Version:      1.5.0
-    Available at: http://team.ops4j.org/wiki/display/base/
-    Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
-    License name: Apache License, version 2.0
-  
-  org.ops4j.pax.logging:1.11.4: 
+  org.ops4j.pax.logging:2.0.6: 
     Project: 
       - OPS4J Pax Logging - API
       - OPS4J Pax Logging - Log4Jv2 implementation
-    Version:      1.11.4
+    Version:      2.0.6
     Available at: https://ops4j1.jira.com/wiki/spaces/paxlogging/overview
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
@@ -1393,16 +1430,6 @@ Runtime dependencies:
   org.ops4j.pax.swissbox.pax-swissbox-property:1.8.3: 
     Project:      "OPS4J Pax Swissbox :: Property"
     Version:      1.8.3
-    Available at: http://team.ops4j.org/wiki/display/PAXSB
-    Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
-    License name: Apache License, version 2.0
-  
-  org.ops4j.pax.swissbox:1.8.2: 
-    Project: 
-      - "OPS4J Pax Swissbox :: Lifecycle"
-      - "OPS4J Pax Swissbox :: OSGi Core"
-      - "OPS4J Pax Swissbox :: Optional JCL"
-    Version:      1.8.2
     Available at: http://team.ops4j.org/wiki/display/PAXSB
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
@@ -1416,28 +1443,14 @@ Runtime dependencies:
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
   
-  org.ops4j.pax.web.pax-web-extender-whiteboard:7.2.3: 
-    Project:      OPS4J Pax Web - Extender - Whiteboard
-    Version:      7.2.3
-    Available at: http://team.ops4j.org/wiki/display/paxweb/
-    Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
-    License name: Apache License, version 2.0
-  
-  org.osgi:6.0.0: 
+  org.osgi:7.0.0: 
     Project: 
-      - org.osgi.core
       - org.osgi:osgi.cmpn
       - org.osgi:osgi.core
-    Version:      6.0.0
-    Available at: http://www.osgi.org
-    Developed by: 
-      - OSGi Alliance (http://www.osgi.org/)
-      - OSGi Alliance (http://www.osgi.org)
-    Licenses: 
-      -
-        License name: Apache License, version 2.0
-      -
-        License name: Apache License, version 2.0
+    Version:      7.0.0
+    Available at: https://www.osgi.org/
+    Developed by: OSGi Alliance (https://www.osgi.org/)
+    License name: Apache License, version 2.0
   
   org.ow2.asm:5.0.4: 
     Project:      ASM Core
@@ -1453,9 +1466,9 @@ Runtime dependencies:
     Available at: http://github.com/ronmamo/reflections
     License name: BSD 3-Clause (New BSD) License
   
-  org.slf4j.jcl-over-slf4j:1.7.29: 
+  org.slf4j.jcl-over-slf4j:1.7.30: 
     Project:      Simple Logging Framework for Java
-    Version:      1.7.29
+    Version:      1.7.30
     Available at: http://www.slf4j.org
     Developed by: QOS.ch (http://www.qos.ch)
     License name: Apache License, version 2.0
@@ -1476,9 +1489,9 @@ Runtime dependencies:
     Developed by: XMLUnit (http://www.xmlunit.org/)
     License name: Apache License, version 2.0
   
-  org.yaml.snakeyaml:1.25: 
+  org.yaml.snakeyaml:1.27: 
     Project:      SnakeYAML
-    Version:      1.25
+    Version:      1.27
     Available at: http://www.snakeyaml.org
     License name: Apache License, version 2.0
   
@@ -1583,14 +1596,6 @@ Runtime dependencies:
     Version:      1.1.3.1
     Available at: http://www.xmlpull.org
     License name: Public Domain
-  
-  xpp3.xpp3_min:1.1.4c: 
-    Project:      "MXP1: Xml Pull Parser 3rd Edition (XPP3)"
-    Version:      1.1.4c
-    Available at: http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/
-    Developed by: Extreme! Lab, Indiana University (http://www.extreme.indiana.edu/)
-    License name: Indiana University Extreme! Lab Software License, vesion 1.1.1
-    Notice:       Copyright (c) Extreme! Lab, Indiana University
   
 
 Apache License: |
@@ -2691,54 +2696,118 @@ Dependency licenses:
     Awesome, nor vice versa. **Please do not use brand logos for any purpose except
     to represent the company, product, or service to which they refer.**
 
-  Indiana University Extreme! Lab Software License, vesion 1.1.1: |
-    Indiana University Extreme! Lab Software License
+  Indiana University Extreme! Lab Software License, vesion 1.2: |
+    Indiana University Extreme! Lab Software License, Version 1.2
     
-    Version 1.1.1
-    
-    Copyright (c) 2002 Extreme! Lab, Indiana University. All rights reserved.
+    Copyright (C) 2003 The Trustees of Indiana University.
+    All rights reserved.
     
     Redistribution and use in source and binary forms, with or without
-    modification, are permitted provided that the following conditions
-    are met:
+    modification, are permitted provided that the following conditions are
+    met:
     
-    1. Redistributions of source code must retain the above copyright notice,
-       this list of conditions and the following disclaimer.
+    1) All redistributions of source code must retain the above
+       copyright notice, the list of authors in the original source
+       code, this list of conditions and the disclaimer listed in this
+       license;
     
-    2. Redistributions in binary form must reproduce the above copyright
-       notice, this list of conditions and the following disclaimer in
-       the documentation and/or other materials provided with the distribution.
+    2) All redistributions in binary form must reproduce the above
+       copyright notice, this list of conditions and the disclaimer
+       listed in this license in the documentation and/or other
+       materials provided with the distribution;
     
-    3. The end-user documentation included with the redistribution, if any,
-       must include the following acknowledgment:
+    3) Any documentation included with all redistributions must include
+       the following acknowledgement:
     
-      "This product includes software developed by the Indiana University
-      Extreme! Lab (http://www.extreme.indiana.edu/)."
+         "This product includes software developed by the Indiana
+         University Extreme! Lab.  For further information please visit
+         http://www.extreme.indiana.edu/"
     
-    Alternately, this acknowledgment may appear in the software itself,
-    if and wherever such third-party acknowledgments normally appear.
+       Alternatively, this acknowledgment may appear in the software
+       itself, and wherever such third-party acknowledgments normally
+       appear.
     
-    4. The names "Indiana Univeristy" and "Indiana Univeristy Extreme! Lab"
-    must not be used to endorse or promote products derived from this
-    software without prior written permission. For written permission,
-    please contact http://www.extreme.indiana.edu/.
+    4) The name "Indiana University" or "Indiana University
+       Extreme! Lab" shall not be used to endorse or promote
+       products derived from this software without prior written
+       permission from Indiana University.  For written permission,
+       please contact http://www.extreme.indiana.edu/.
     
-    5. Products derived from this software may not use "Indiana Univeristy"
-    name nor may "Indiana Univeristy" appear in their name, without prior
-    written permission of the Indiana University.
+    5) Products derived from this software may not use "Indiana
+       University" name nor may "Indiana University" appear in their name,
+       without prior written permission of the Indiana University.
     
-    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED
-    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-    MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-    IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS OR ITS CONTRIBUTORS
-    BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
-    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
-    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
-    BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
-    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
-    OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
-    ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    Indiana University provides no reassurances that the source code
+    provided does not infringe the patent or any other intellectual
+    property rights of any other entity.  Indiana University disclaims any
+    liability to any recipient for claims brought by any other entity
+    based on infringement of intellectual property rights or otherwise.
     
+    LICENSEE UNDERSTANDS THAT SOFTWARE IS PROVIDED "AS IS" FOR WHICH
+    NO WARRANTIES AS TO CAPABILITIES OR ACCURACY ARE MADE. INDIANA
+    UNIVERSITY GIVES NO WARRANTIES AND MAKES NO REPRESENTATION THAT
+    SOFTWARE IS FREE OF INFRINGEMENT OF THIRD PARTY PATENT, COPYRIGHT, OR
+    OTHER PROPRIETARY RIGHTS.  INDIANA UNIVERSITY MAKES NO WARRANTIES THAT
+    SOFTWARE IS FREE FROM "BUGS", "VIRUSES", "TROJAN HORSES", "TRAP
+    DOORS", "WORMS", OR OTHER HARMFUL CODE.  LICENSEE ASSUMES THE ENTIRE
+    RISK AS TO THE PERFORMANCE OF SOFTWARE AND/OR ASSOCIATED MATERIALS,
+    AND TO THE PERFORMANCE AND VALIDITY OF INFORMATION GENERATED USING
+    SOFTWARE.
+
+  Java HTML Tidy License: |
+    /**
+    *  Java HTML Tidy - JTidy
+    *  HTML parser and pretty printer
+    *
+    *  Copyright (c) 1998-2000 World Wide Web Consortium (Massachusetts
+    *  Institute of Technology, Institut National de Recherche en
+    *  Informatique et en Automatique, Keio University). All Rights
+    *  Reserved.
+    *
+    *  Contributing Author(s):
+    *
+    *     Dave Raggett <dsr@w3.org>
+    *     Andy Quick <ac.quick@sympatico.ca> (translation to Java)
+    *     Gary L Peskin <garyp@firstech.com> (Java development)
+    *     Sami Lempinen <sami@lempinen.net> (release management)
+    *     Fabrizio Giustina <fgiust at users.sourceforge.net>
+    *
+    *  The contributing author(s) would like to thank all those who
+    *  helped with testing, bug fixes, and patience.  This wouldn't
+    *  have been possible without all of you.
+    *
+    *  COPYRIGHT NOTICE:
+    * 
+    *  This software and documentation is provided "as is," and
+    *  the copyright holders and contributing author(s) make no
+    *  representations or warranties, express or implied, including
+    *  but not limited to, warranties of merchantability or fitness
+    *  for any particular purpose or that the use of the software or
+    *  documentation will not infringe any third party patents,
+    *  copyrights, trademarks or other rights. 
+    *
+    *  The copyright holders and contributing author(s) will not be
+    *  liable for any direct, indirect, special or consequential damages
+    *  arising out of any use of the software or documentation, even if
+    *  advised of the possibility of such damage.
+    *
+    *  Permission is hereby granted to use, copy, modify, and distribute
+    *  this source code, or portions hereof, documentation and executables,
+    *  for any purpose, without fee, subject to the following restrictions:
+    *
+    *  1. The origin of this source code must not be misrepresented.
+    *  2. Altered versions must be plainly marked as such and must
+    *     not be misrepresented as being the original source.
+    *  3. This Copyright notice may not be removed or altered from any
+    *     source or altered source distribution.
+    * 
+    *  The copyright holders and contributing author(s) specifically
+    *  permit, without fee, and encourage the use of this source code
+    *  as a component for supporting the Hypertext Markup Language in
+    *  commercial products. If you use this source code in a product,
+    *  acknowledgment is not required but would be appreciated.
+    *
+    */
 
   MIT License: |
     MIT License
