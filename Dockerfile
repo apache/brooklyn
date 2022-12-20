@@ -17,32 +17,19 @@
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
 # and PhantomJS
-FROM maven:3.8.6-eclipse-temurin-8
+FROM maven:3.8.2-jdk-8
 
 # Install necessary binaries to build brooklyn
-# Strictly speaking, rsync, gpg, tar, and zip are only necessary
-# if you are creating release artifacts, but they are fairly
-# low footprint
-RUN apt-get update && apt-get install -y \
-    git-core \
-    procps \
-    rpm \
-    dpkg \
-    libpng-dev \
-    libjpeg-progs \
-    pngquant \
-    make \
-    automake \
-    autoconf \
-    libtool \
-    dpkg \
-    pkg-config \
-    nasm \
-    gcc \
-    rsync \
-    gpg \
-    tar \
-    zip
+RUN apt-get update
+
+RUN apt-get install -y \
+    `# common tools` git-core rsync sudo vim less curl gpg tar zip procps \
+    `# parsing utils xml json etc` libxml2 libxml2-utils jq \
+    `# usual build tools for eg nodejs modules` make automake autoconf libtool nasm gcc
+RUN apt-get install -y \
+    `# builders for linux installers` rpm dpkg pkg-config \
+    `# libraries for nodejs image processing` libpng-dev libjpeg-progs pngquant \
+    `# node; maven installs this usually, but handy to have for testing` nodejs
 
 RUN cd /tmp \
 && curl -O https://dl.google.com/go/go1.15.8.linux-amd64.tar.gz \
@@ -64,3 +51,4 @@ RUN mkdir -p /var/tmp/ && chmod -R 777 /var/tmp/
 # Make sure the /var/maven is writable for all users
 RUN mkdir -p /var/maven/.m2/ && chmod -R 777 /var/maven/
 ENV MAVEN_CONFIG=/var/maven/.m2
+
