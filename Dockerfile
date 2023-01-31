@@ -51,4 +51,4 @@ RUN mkdir -p /var/tmp/ && chmod -R 777 /var/tmp/
 # Make sure the /var/maven is writable for all users
 RUN mkdir -p /var/maven/.m2/ && chmod -R 777 /var/maven/
 ENV MAVEN_CONFIG=/var/maven/.m2
-
+ENV OPENSSL_CONF=/etc/ssl
