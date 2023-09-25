@@ -25,7 +25,7 @@ FROM maven:3.9.4-amazoncorretto-8-debian
 RUN apt-get update
 
 RUN apt-get install -y \
-    `# common tools` git-core rsync sudo vim less curl gpg tar zip procps \
+    `# common tools` git-core rsync sudo vim less curl gpg tar zip procps bzip2 \
     `# parsing utils xml json etc` libxml2 libxml2-utils jq \
     `# usual build tools for eg nodejs modules` make automake autoconf libtool nasm gcc
 RUN apt-get install -y \
