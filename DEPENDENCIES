@@ -219,9 +219,15 @@ Runtime dependencies:
     License name: MIT License
     Notice:       Copyright (c) 2011-2016 Twitter, Inc.
   
-  ch.qos.logback:1.2.3: 
+  ch.qos.logback:0.1.5: 
     Project:      Logback Logging Framework
-    Version:      1.2.3
+    Version:      0.1.5
+    Available at: https://github.com/qos-ch/logback-contrib/wiki
+    License name: Eclipse Public License, version 1.0
+  
+  ch.qos.logback:1.2.9: 
+    Project:      Logback Logging Framework
+    Version:      1.2.9
     Available at: http://logback.qos.ch
     Developed by: QOS.ch (http://www.qos.ch)
     License name: Eclipse Public License, version 1.0
@@ -241,23 +247,20 @@ Runtime dependencies:
     License name: MIT License
     Notice:       Copyright (C) 2017 by Marijn Haverbeke <marijnh@gmail.com> and others
   
-  com.fasterxml.jackson:2.11.3: 
+  com.fasterxml.jackson:2.16.1: 
     Project:      Jackson FasterXML
-    Version:      2.11.3
-    Available at: 
-      - http://github.com/FasterXML/jackson
-      - https://github.com/FasterXML/jackson-core
-      - https://github.com/FasterXML/jackson-dataformat-xml
-      - https://github.com/FasterXML/jackson-dataformats-text
-      - https://github.com/FasterXML/jackson-datatype-joda
-      - https://github.com/FasterXML/jackson-modules-base
-      - https://github.com/FasterXML/jackson-modules-java8
+    Version:      2.16.1
+    Available at: https://github.com/FasterXML/jackson
     Developed by: FasterXML (http://fasterxml.com/)
-    License name: Apache License, version 2.0
+    Licenses: 
+      -
+        License name: Apache License, version 2.0
+      -
+        License name: Apache License, version 2.0
   
-  com.fasterxml.woodstox.woodstox-core:5.0.3: 
+  com.fasterxml.woodstox.woodstox-core:6.4.0: 
     Project:      Woodstox
-    Version:      5.0.3
+    Version:      6.4.0
     Available at: https://github.com/FasterXML/woodstox
     Developed by: FasterXML (http://fasterxml.com)
     License name: Apache License, version 2.0
@@ -268,22 +271,15 @@ Runtime dependencies:
     Available at: https://github.com/mifmif/Generex/tree/master
     License name: Apache License, version 2.0
   
-  com.google.code.findbugs.jsr305:2.0.1: 
-    Project:      FindBugs-jsr305
-    Version:      2.0.1
-    Available at: http://findbugs.sourceforge.net/
-    License name: Apache License, version 2.0
-  
-  com.google.code.gson:2.5: 
+  com.google.code.gson:2.8.9: 
     Project:      Gson
-    Version:      2.5
+    Version:      2.8.9
     Available at: https://github.com/google/gson
-    Developed by: Google, Inc. (http://www.google.com)
     License name: Apache License, version 2.0
   
-  com.google.errorprone.error_prone_annotations:2.1.0: 
+  com.google.errorprone.error_prone_annotations:2.2.0: 
     Project:      error-prone annotations
-    Version:      2.1.0
+    Version:      2.2.0
     Available at: http://nexus.sonatype.org/oss-repository-hosting.html
     License name: Apache License, version 2.0
   
@@ -293,36 +289,48 @@ Runtime dependencies:
     Available at: https://github.com/google/guava
     License name: Apache License, version 2.0
   
-  com.google.guava:18.0: 
+  com.google.guava.listenablefuture:9999.0-empty-to-avoid-conflict-with-guava: 
+    Project:      Guava ListenableFuture only
+    Version:      9999.0-empty-to-avoid-conflict-with-guava
+    Available at: https://github.com/google/guava
+    License name: Apache License, version 2.0
+  
+  com.google.guava:27.1-jre: 
     Project:      "Guava: Google Core Libraries for Java"
-    Version:      18.0
-    Available at: http://code.google.com/p/guava-libraries
+    Version:      27.1-jre
+    Available at: https://github.com/google/guava
     License name: Apache License, version 2.0
   
-  com.google.inject.guice:3.0: 
+  com.google.inject.guice:4.2.3: 
     Project:      Google Guice
-    Version:      3.0
-    Available at: http://code.google.com/p/google-guice/
+    Version:      4.2.3
+    Available at: https://github.com/google/guice
     Developed by: Google, Inc. (http://www.google.com)
     License name: Apache License, version 2.0
   
-  com.google.inject:3.0: 
+  com.google.inject:4.2.3: 
     Project:      Google Guice
-    Version:      3.0
-    Available at: http://code.google.com/p/google-guice/
+    Version:      4.2.3
+    Available at: https://github.com/google/guice
     Developed by: Google, Inc. (http://www.google.com)
     License name: Apache License, version 2.0
   
-  com.hierynomus.sshj:0.22.0: 
-    Project:      sshj
-    Version:      0.22.0
-    Available at: https://github.com/hierynomus/sshj
-    License name: Apache License, version 2.0
-  
-  com.jamesmurty.utils.java-xmlbuilder:1.1: 
-    Project:      java-xmlbuilder
+  com.google.j2objc.j2objc-annotations:1.1: 
+    Project:      J2ObjC Annotations
     Version:      1.1
-    Available at: https://github.com/jmurty/java-xmlbuilder
+    Available at: https://github.com/google/j2objc/
+    License name: Apache License, version 2.0
+  
+  com.hierynomus.asn-one:0.6.0: 
+    Project:      asn-one
+    Version:      0.6.0
+    Available at: https://github.com/hierynomus/asn-one
+    License name: Apache License, version 2.0
+  
+  com.hierynomus.sshj:0.34.0: 
+    Project:      sshj
+    Version:      0.34.0
+    Available at: https://github.com/hierynomus/sshj
     License name: Apache License, version 2.0
   
   com.jayway.jsonpath.json-path:2.4.0: 
@@ -361,20 +369,17 @@ Runtime dependencies:
     Developed by: MaxMind, Inc. (http://www.maxmind.com/)
     License name: Apache License, version 2.0
   
-  com.squareup.okhttp3:3.12.6: 
-    Project: 
-      - OkHttp
-      - OkHttp Logging Interceptor
-    Version:      3.12.6
+  com.squareup.okhttp3.logging-interceptor:3.12.12: 
+    Project:      OkHttp Logging Interceptor
+    Version:      3.12.12
     Available at: https://github.com/square/okhttp
     License name: Apache License, version 2.0
   
-  com.squareup.okhttp:2.2.0: 
+  com.squareup.okhttp3.okhttp:3.14.9: 
     Project:      OkHttp
-    Version:      2.2.0
+    Version:      3.14.9
     Available at: https://github.com/square/okhttp
     License name: Apache License, version 2.0
-    Notice:       Copyright (c) Square, Inc.
   
   com.squareup.okio:1.15.0: 
     Project:      Okio
@@ -383,30 +388,16 @@ Runtime dependencies:
     License name: Apache License, version 2.0
     Notice:       Copyright (c) Square, Inc.
   
-  com.sun.activation.jakarta.activation:1.2.2: 
-    Project:      Jakarta Activation
-    Version:      1.2.2
-    Available at: https://github.com/eclipse-ee4j/jaf
+  com.sun.xml.bind.jaxb-impl:2.3.3: 
+    Project:      Old JAXB Runtime
+    Version:      2.3.3
+    Available at: https://eclipse-ee4j.github.io/jaxb-ri
     Developed by: Eclipse Foundation (https://www.eclipse.org)
-    License name: Eclipse Distribution License, version 1.0
-  
-  com.sun.activation.javax.activation:1.2.0: 
-    Project:      JavaBeans Activation Framework
-    Version:      1.2.0
-    Available at: http://java.net/
-    Developed by: Oracle (http://www.oracle.com)
     License name: Common Development and Distribution License, version 1.1
   
-  com.sun.istack.istack-commons-runtime:3.0.10: 
-    Project:      istack common utility code runtime
-    Version:      3.0.10
-    Available at: https://projects.eclipse.org/projects/ee4j
-    Developed by: Eclipse Foundation (https://www.eclipse.org)
-    License name: Eclipse Distribution License, version 1.0
-  
-  com.thoughtworks.xstream:1.4.18: 
+  com.thoughtworks.xstream:1.4.19: 
     Project:      XStream Core
-    Version:      1.4.18
+    Version:      1.4.19
     Available at: http://x-stream.github.io/
     Developed by: XStream (http://x-stream.github.io)
     License name: BSD 3-Clause (New BSD) License
@@ -440,11 +431,11 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  commons-io:2.4: 
-    Project:      Commons IO
-    Version:      2.4
-    Available at: http://commons.apache.org/io/
-    Developed by: The Apache Software Foundation (http://www.apache.org/)
+  commons-io:2.11.0: 
+    Project:      Apache Commons IO
+    Version:      2.11.0
+    Available at: https://commons.apache.org/proper/commons-io/
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
   commons-lang:2.4: 
@@ -868,13 +859,51 @@ Runtime dependencies:
     Available at: https://github.com/fabric8io/zjsonpatch/
     License name: Apache License, version 2.0
   
-  io.fabric8:4.9.0: 
+  io.fabric8:6.8.1: 
     Project: 
+      - "Fabric8 :: Kubernetes :: HttpClient :: OkHttp"
       - "Fabric8 :: Kubernetes :: Java Client"
-      - "Fabric8 :: Kubernetes Model"
+      - "Fabric8 :: Kubernetes :: Java Client API"
+      - "Fabric8 :: Kubernetes Model :: API Extensions"
+      - "Fabric8 :: Kubernetes Model :: Admission Registration, Authentication and Authorization"
+      - "Fabric8 :: Kubernetes Model :: Apps"
+      - "Fabric8 :: Kubernetes Model :: Autoscaling"
+      - "Fabric8 :: Kubernetes Model :: Batch"
+      - "Fabric8 :: Kubernetes Model :: Certificates"
       - "Fabric8 :: Kubernetes Model :: Common"
+      - "Fabric8 :: Kubernetes Model :: Coordination"
+      - "Fabric8 :: Kubernetes Model :: Core"
+      - "Fabric8 :: Kubernetes Model :: Discovery"
+      - "Fabric8 :: Kubernetes Model :: Events"
+      - "Fabric8 :: Kubernetes Model :: Extensions"
+      - "Fabric8 :: Kubernetes Model :: FlowControl"
+      - "Fabric8 :: Kubernetes Model :: Metrics"
+      - "Fabric8 :: Kubernetes Model :: Networking"
+      - "Fabric8 :: Kubernetes Model :: Node"
+      - "Fabric8 :: Kubernetes Model :: Policy"
+      - "Fabric8 :: Kubernetes Model :: RBAC"
+      - "Fabric8 :: Kubernetes Model :: Resource"
+      - "Fabric8 :: Kubernetes Model :: Scheduling"
+      - "Fabric8 :: Kubernetes Model :: Sigs :: Gateway API"
+      - "Fabric8 :: Kubernetes Model :: Storage Class"
+      - "Fabric8 :: OpenShift Cluster Autoscaler Operator Model"
+      - "Fabric8 :: OpenShift Config Model"
+      - "Fabric8 :: OpenShift Console Model"
+      - "Fabric8 :: OpenShift Hive Model"
+      - "Fabric8 :: OpenShift Installer Model"
+      - "Fabric8 :: OpenShift Kube Storage Version Migrator Model"
+      - "Fabric8 :: OpenShift Machine API Operator Model"
+      - "Fabric8 :: OpenShift Machine Config Operator Model"
+      - "Fabric8 :: OpenShift Miscellaneous Operators Model"
+      - "Fabric8 :: OpenShift Model"
+      - "Fabric8 :: OpenShift Monitoring Model"
+      - "Fabric8 :: OpenShift Node Tuning Operator Model"
+      - "Fabric8 :: OpenShift Operator Model"
+      - "Fabric8 :: OpenShift OperatorHub Model"
+      - "Fabric8 :: OpenShift Whereabouts CNI Model"
       - "Fabric8 :: Openshift :: Java Client"
-    Version:      4.9.0
+      - "Fabric8 :: Openshift :: Java Client API"
+    Version:      6.8.1
     Available at: http://fabric8.io/
     Developed by: Red Hat (http://redhat.com)
     License name: Apache License, version 2.0
@@ -883,7 +912,7 @@ Runtime dependencies:
     Project:      MXParser
     Version:      1.2.2
     Available at: http://x-stream.github.io/mxparser
-    License name: Indiana University Extreme! Lab Software License, vesion 1.2
+    License name: Indiana University Extreme! Lab Software License, version 1.2
     Notice:       Copyright (c) Extreme! Lab, Indiana University
   
   io.swagger:1.6.2: 
@@ -928,9 +957,9 @@ Runtime dependencies:
     Developed by: Eclipse Foundation (https://www.eclipse.org)
     License name: Eclipse Public License, version 2.0
   
-  jakarta.ws.rs.jakarta.ws.rs-api:2.1.5: 
-    Project:      javax.ws.rs-api
-    Version:      2.1.5
+  jakarta.ws.rs.jakarta.ws.rs-api:2.1.6: 
+    Project:      jakarta.ws.rs-api
+    Version:      2.1.6
     Available at: https://github.com/eclipse-ee4j/jaxrs-api
     Developed by: Eclipse Foundation (https://www.eclipse.org/org/foundation/)
     License name: Eclipse Public License, version 2.0
@@ -948,13 +977,6 @@ Runtime dependencies:
     Available at: https://github.com/tbouron/java-stack-parser
     Developed by: Thomas Bouron
     License name: Apache License, version 2.0
-  
-  javax.annotation.javax.annotation-api:1.3.2: 
-    Project:      javax.annotation API
-    Version:      1.3.2
-    Available at: http://jcp.org/en/jsr/detail?id=250
-    Developed by: GlassFish Community (https://javaee.github.io/glassfish)
-    License name: Common Development and Distribution License, version 1.1
   
   javax.annotation.jsr250-api:1.0: 
     Project:      JSR-250 Common Annotations for the JavaTM Platform
@@ -988,11 +1010,11 @@ Runtime dependencies:
     Developed by: Eclipse Foundation (https://www.eclipse.org/org/foundation/)
     License name: Common Development and Distribution License, version 1.1
   
-  joda-time:2.9.9: 
+  joda-time:2.10.14: 
     Project:      Joda-Time
-    Version:      2.9.9
-    Available at: http://www.joda.org/joda-time/
-    Developed by: Joda.org (http://www.joda.org)
+    Version:      2.10.14
+    Available at: https://www.joda.org/joda-time/
+    Developed by: Joda.org (https://www.joda.org)
     License name: Apache License, version 2.0
   
   jquery@1.12.4: 
@@ -1049,38 +1071,32 @@ Runtime dependencies:
     License name: MIT License
     Notice:       Copyright (c) JS Foundation and other contributors
   
-  net.i2p.crypto.eddsa:0.1.0: 
-    Project:      ed25519-java
-    Version:      0.1.0
+  net.i2p.crypto.eddsa:0.3.0: 
+    Project:      EdDSA-Java
+    Version:      0.3.0
     Available at: https://github.com/str4d/ed25519-java
-    License name: Public Domain
+    License name: CC0 1.0 Universal
   
-  net.iharder.base64:2.3.8: 
-    Project:      base64
-    Version:      2.3.8
-    Available at: http://iharder.net/base64/
-    License name: Public Domain
-  
-  net.java.dev.jna:5.6.0: 
+  net.java.dev.jna:5.9.0: 
     Project: 
       - Java Native Access
       - Java Native Access Platform
-    Version:      5.6.0
+    Version:      5.9.0
     Available at: https://github.com/java-native-access/jna
     License name: Apache License, version 2.0
   
-  net.minidev.accessors-smart:1.2: 
+  net.minidev.accessors-smart:2.4.9: 
     Project:      ASM based accessors helper used by json-smart
-    Version:      1.2
-    Available at: http://www.minidev.net/
-    Developed by: Chemouni Uriel (http://www.minidev.net/)
+    Version:      2.4.9
+    Available at: https://urielch.github.io/
+    Developed by: Chemouni Uriel (https://urielch.github.io/)
     License name: Apache License, version 2.0
   
-  net.minidev.json-smart:2.3: 
+  net.minidev.json-smart:2.4.10: 
     Project:      JSON Small and Fast Parser
-    Version:      2.3
-    Available at: http://www.minidev.net/
-    Developed by: Chemouni Uriel (http://www.minidev.net/)
+    Version:      2.4.10
+    Available at: https://urielch.github.io/
+    Developed by: Chemouni Uriel (https://urielch.github.io/)
     License name: Apache License, version 2.0
   
   ngclipboard@1.1.2: 
@@ -1107,18 +1123,18 @@ Runtime dependencies:
     License name: MIT License
     Notice:       Copyright (c) 2014 Dan Abramov
   
-  org.apache.commons.commons-compress:1.20: 
+  org.apache.commons.commons-compress:1.21: 
     Project:      Apache Commons Compress
-    Version:      1.20
+    Version:      1.21
     Available at: https://commons.apache.org/proper/commons-compress/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.commons.commons-lang3:3.3.2: 
+  org.apache.commons.commons-lang3:3.12.0: 
     Project:      Apache Commons Lang
-    Version:      3.3.2
-    Available at: http://commons.apache.org/proper/commons-lang/
-    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    Version:      3.12.0
+    Available at: https://commons.apache.org/proper/commons-lang/
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
   org.apache.cxf:3.3.9: 
@@ -1128,39 +1144,67 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.configadmin.plugin.interpolation:1.1.0: 
+  org.apache.cxf:3.4.10: 
+    Project:      Apache CXF
+    Version:      3.4.10
+    Available at: https://cxf.apache.org
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.felix.org.apache.felix.cm.json:1.0.6: 
+    Project:      Apache Felix Configuration Json
+    Version:      1.0.6
+    Available at: https://felix.apache.org/
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.felix.org.apache.felix.configadmin.plugin.interpolation:1.2.6: 
     Project:      Apache Felix Configuration Admin Values Interpolation Plugin
-    Version:      1.1.0
-    Available at: http://felix.apache.org/
+    Version:      1.2.6
+    Available at: https://felix.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.configadmin:1.9.18: 
+  org.apache.felix.org.apache.felix.configadmin:1.9.24: 
     Project:      Apache Felix Configuration Admin Service
-    Version:      1.9.18
+    Version:      1.9.24
     Available at: http://felix.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.fileinstall:3.6.8: 
+  org.apache.felix.org.apache.felix.fileinstall:3.7.4: 
     Project:      Apache Felix File Install
-    Version:      3.6.8
+    Version:      3.7.4
     Available at: http://felix.apache.org/site/apache-felix-file-install.html
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.framework:6.0.3: 
+  org.apache.felix.org.apache.felix.framework:6.0.5: 
     Project:      Apache Felix Framework
-    Version:      6.0.3
+    Version:      6.0.5
     Available at: http://felix.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.felix.org.apache.felix.utils:1.11.4: 
+  org.apache.felix.org.apache.felix.utils:1.11.8: 
     Project:      Apache Felix Utils
-    Version:      1.11.4
+    Version:      1.11.8
     Available at: http://felix.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.geronimo.components.geronimo-jaspi:2.0.0: 
+    Project:      Apache Geronimo JASPI implementation
+    Version:      2.0.0
+    Available at: http://geronimo.apache.org/maven/components/geronimo-jaspi/2.0.0
+    Developed by: The Apache Software Foundation (http://www.apache.org)
+    License name: Apache License, version 2.0
+  
+  org.apache.geronimo.specs.geronimo-json_1.1_spec:1.5: 
+    Project:      Apache Geronimo JSON Spec 1.1
+    Version:      1.5
+    Available at: http://geronimo.apache.org/maven/specs/geronimo-json_1.1_spec/1.5
+    Developed by: The Apache Software Foundation (http://www.apache.org)
     License name: Apache License, version 2.0
   
   org.apache.geronimo.specs.geronimo-stax-api_1.0_spec:1.0.1: 
@@ -1180,10 +1224,12 @@ Runtime dependencies:
   org.apache.geronimo.specs:1.1: 
     Project: 
       - Activation 1.1
+      - Java Authentication SPI for Containers
       - SAAJ 1.3
     Version:      1.1
     Available at: 
       - http://geronimo.apache.org/maven/specs/geronimo-activation_1.1_spec/1.1
+      - http://geronimo.apache.org/maven/specs/geronimo-jaspic_1.0_spec/1.1
       - http://geronimo.apache.org/maven/specs/geronimo-saaj_1.3_spec/1.1
     Developed by: The Apache Software Foundation (http://www.apache.org)
     License name: Apache License, version 2.0
@@ -1220,26 +1266,27 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.httpcomponents.httpcore:4.4.14: 
+  org.apache.httpcomponents.httpcore:4.4.15: 
     Project:      Apache HttpCore
-    Version:      4.4.14
+    Version:      4.4.15
     Available at: http://hc.apache.org/httpcomponents-core-ga
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.jclouds:2.1.2: 
+  org.apache.jclouds:2.4.0: 
     Project:      Apache jclouds
-    Version:      2.1.2
-    Available at: http://jclouds.apache.org/
+    Version:      2.4.0
+    Available at: https://jclouds.apache.org/
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.karaf:4.3.0: 
+  org.apache.karaf:4.3.8: 
     Project: 
       - "Apache Karaf :: Assemblies :: Features :: Base"
       - "Apache Karaf :: Assemblies :: Features :: Framework"
       - "Apache Karaf :: Assemblies :: Features :: Standard"
       - "Apache Karaf :: Client"
+      - "Apache Karaf :: ConfigAdmin :: Core"
       - "Apache Karaf :: Diagnostic :: Boot"
       - "Apache Karaf :: Features :: Core"
       - "Apache Karaf :: Features :: Extension"
@@ -1251,18 +1298,19 @@ Runtime dependencies:
       - "Apache Karaf :: Specs :: Java Xml WS"
       - "Apache Karaf :: Specs :: Locator"
       - "Apache Karaf :: Util"
-    Version:      4.3.0
+    Version:      4.3.8
     Available at: https://www.apache.org/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.maven.resolver:1.3.1: 
+  org.apache.maven.resolver:1.8.2: 
     Project: 
       - Maven Artifact Resolver API
       - Maven Artifact Resolver Implementation
+      - Maven Artifact Resolver Named Locks
       - Maven Artifact Resolver SPI
       - Maven Artifact Resolver Utilities
-    Version:      1.3.1
+    Version:      1.8.2
     Available at: https://maven.apache.org/resolver/
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
@@ -1271,6 +1319,13 @@ Runtime dependencies:
     Project:      Apache Neethi
     Version:      3.1.1
     Available at: http://ws.apache.org/neethi/
+    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.servicemix.specs.org.apache.servicemix.specs.activation-api-1.2.1:1.2.1_3: 
+    Project:      "Apache ServiceMix :: Specs :: Activation API 1.2.1"
+    Version:      1.2.1_3
+    Available at: http://servicemix.apache.org/
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
@@ -1285,11 +1340,18 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (http://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.apache.sshd.sshd-osgi:2.5.1: 
+  org.apache.sling.org.apache.sling.commons.johnzon:1.2.14: 
+    Project:      Apache Sling Commons Johnzon Wrapper Library
+    Version:      1.2.14
+    Available at: https://sling.apache.org
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
+    License name: Apache License, version 2.0
+  
+  org.apache.sshd.sshd-osgi:2.9.1: 
     Project:      "Apache Mina SSHD :: OSGi"
-    Version:      2.5.1
-    Available at: http://www.apache.org/
-    Developed by: The Apache Software Foundation (http://www.apache.org/)
+    Version:      2.9.1
+    Available at: https://www.apache.org/
+    Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
   org.apache.ws.xmlschema.xmlschema-core:2.2.5: 
@@ -1299,39 +1361,52 @@ Runtime dependencies:
     Developed by: The Apache Software Foundation (https://www.apache.org/)
     License name: Apache License, version 2.0
   
-  org.bouncycastle:1.67: 
-    Project: 
-      - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs
-      - Bouncy Castle Provider
-    Version:      1.67
-    Available at: 
-      - http://www.bouncycastle.org/java.html
-      - https://www.bouncycastle.org/java.html
+  org.apache.xbean.xbean-reflect:3.6: 
+    Project:      "Apache XBean :: Reflect"
+    Version:      3.6
+    Available at: http://geronimo.apache.org/maven/xbean/3.6
+    Developed by: The Apache Software Foundation (http://www.apache.org)
+    License name: Apache License, version 2.0
+  
+  org.bouncycastle.bcprov-ext-jdk15on:1.60: 
+    Project:      Bouncy Castle Provider
+    Version:      1.60
+    Available at: https://www.bouncycastle.org/java.html
     License name: MIT License
     Notice:       Copyright (c) The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)
   
-  org.codehaus.groovy.groovy-all:2.4.15: 
+  org.bouncycastle:1.72: 
+    Project: 
+      - Bouncy Castle ASN.1 Extension and Utility APIs
+      - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs
+      - Bouncy Castle Provider
+    Version:      1.72
+    Available at: https://www.bouncycastle.org/java.html
+    License name: MIT License
+    Notice:       Copyright (c) The Legion of the Bouncy Castle Inc. (http://www.bouncycastle.org)
+  
+  org.codehaus.groovy.groovy-all:2.4.21: 
     Project:      Apache Groovy
-    Version:      2.4.15
+    Version:      2.4.21
     Available at: http://groovy-lang.org
     Developed by: Apache Software Foundation (http://groovy-lang.org)
     License name: Apache License, version 2.0
   
-  org.codehaus.mojo.animal-sniffer-annotations:1.9: 
+  org.codehaus.mojo.animal-sniffer-annotations:1.17: 
     Project:      Animal Sniffer Annotations
-    Version:      1.9
-    Available at: http://mojo.codehaus.org/animal-sniffer
-    Developed by: Codehaus (http://codehaus.org)
+    Version:      1.17
+    Available at: http://www.mojohaus.org/animal-sniffer
+    Developed by: MojoHaus (http://www.mojohaus.org)
     License name: MIT License
   
-  org.codehaus.woodstox.stax2-api:3.1.4: 
+  org.codehaus.woodstox.stax2-api:4.2.1: 
     Project:      Stax2 API
-    Version:      3.1.4
-    Available at: http://wiki.fasterxml.com/WoodstoxStax2
+    Version:      4.2.1
+    Available at: http://github.com/FasterXML/stax2-api
     Developed by: fasterxml.com (http://fasterxml.com)
     License name: BSD 2-Clause (Simplified or FreeBSD) License
   
-  org.eclipse.jetty:9.4.39.v20210325: 
+  org.eclipse.jetty:9.4.49.v20220914: 
     Project: 
       - "Jetty :: Http Utility"
       - "Jetty :: IO Utility"
@@ -1342,14 +1417,14 @@ Runtime dependencies:
       - "Jetty :: Utilities :: Ajax(JSON)"
       - "Jetty :: Webapp Application Support"
       - "Jetty :: XML utilities"
-    Version:      9.4.39.v20210325
+    Version:      9.4.49.v20220914
     Available at: https://eclipse.org/jetty
     Developed by: Webtide (https://webtide.com)
     License name: Apache License, version 2.0
   
-  org.eclipse.platform.org.eclipse.osgi:3.16.0: 
+  org.eclipse.platform.org.eclipse.osgi:3.17.200: 
     Project:      OSGi System Bundle
-    Version:      3.16.0
+    Version:      3.17.200
     Available at: http://www.eclipse.org/platform
     Developed by: Eclipse Foundation (http://www.eclipse.org/)
     License name: Eclipse Public License, version 1.0
@@ -1367,10 +1442,8 @@ Runtime dependencies:
     Available at: https://opendmk.java.net/
     License name: Common Development and Distribution License, version 1.1
   
-  org.glassfish.jaxb:2.3.3: 
-    Project: 
-      - JAXB Runtime
-      - TXW2 Runtime
+  org.glassfish.jaxb.txw2:2.3.3: 
+    Project:      TXW2 Runtime
     Version:      2.3.3
     Available at: https://eclipse-ee4j.github.io/jaxb-ri
     Developed by: Eclipse Foundation (https://www.eclipse.org)
@@ -1395,9 +1468,9 @@ Runtime dependencies:
     License name: Apache License, version 2.0
     Notice:       Copyright (c) Shigeru Chiba
   
-  org.jline:3.16.0: 
+  org.jline:3.21.0: 
     Project:      JLine Bundle
-    Version:      3.16.0
+    Version:      3.21.0
     Available at: http://nexus.sonatype.org/oss-repository-hosting.html
     License name: BSD 3-Clause (New BSD) License
     Notice: 
@@ -1418,29 +1491,37 @@ Runtime dependencies:
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
   
-  org.ops4j.pax.logging:2.0.6: 
+  org.ops4j.pax.logging:2.0.18: 
     Project: 
       - OPS4J Pax Logging - API
       - OPS4J Pax Logging - Log4Jv2 implementation
-    Version:      2.0.6
+      - OPS4J Pax Logging - Logback implementation
+    Version:      2.0.18
     Available at: https://ops4j1.jira.com/wiki/spaces/paxlogging/overview
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
   
-  org.ops4j.pax.swissbox.pax-swissbox-property:1.8.3: 
+  org.ops4j.pax.swissbox.pax-swissbox-property:1.8.5: 
     Project:      "OPS4J Pax Swissbox :: Property"
-    Version:      1.8.3
+    Version:      1.8.5
     Available at: http://team.ops4j.org/wiki/display/PAXSB
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
     License name: Apache License, version 2.0
   
-  org.ops4j.pax.url:2.6.2: 
+  org.ops4j.pax.url:2.6.12: 
     Project: 
       - OPS4J Pax Url - mvn:
       - "OPS4J Pax Url - mvn: - support library"
-    Version:      2.6.2
+    Version:      2.6.12
     Available at: https://ops4j1.jira.com/wiki/spaces/paxurl/overview
     Developed by: OPS4J - Open Participation Software for Java (http://www.ops4j.org/)
+    License name: Apache License, version 2.0
+  
+  org.osgi.org.osgi.annotation.versioning:1.1.1: 
+    Project:      org.osgi:org.osgi.annotation.versioning
+    Version:      1.1.1
+    Available at: https://www.osgi.org/
+    Developed by: OSGi Alliance (https://www.osgi.org/)
     License name: Apache License, version 2.0
   
   org.osgi:7.0.0: 
@@ -1452,9 +1533,9 @@ Runtime dependencies:
     Developed by: OSGi Alliance (https://www.osgi.org/)
     License name: Apache License, version 2.0
   
-  org.ow2.asm:5.0.4: 
+  org.ow2.asm:5.2: 
     Project:      ASM Core
-    Version:      5.0.4
+    Version:      5.2
     Available at: http://asm.objectweb.org/
     Developed by: ObjectWeb (http://www.objectweb.org/)
     License name: BSD 3-Clause (New BSD) License
@@ -1466,19 +1547,22 @@ Runtime dependencies:
     Available at: http://github.com/ronmamo/reflections
     License name: BSD 3-Clause (New BSD) License
   
-  org.slf4j.jcl-over-slf4j:1.7.30: 
+  org.slf4j:1.7.36: 
     Project:      Simple Logging Framework for Java
-    Version:      1.7.30
+    Version:      1.7.36
     Available at: http://www.slf4j.org
     Developed by: QOS.ch (http://www.qos.ch)
-    License name: Apache License, version 2.0
+    Licenses: 
+      -
+        License name: MIT License
+      -
+        License name: Apache License, version 2.0
   
-  org.slf4j:1.7.25: 
-    Project:      Simple Logging Framework for Java
-    Version:      1.7.25
-    Available at: http://www.slf4j.org
-    Developed by: QOS.ch (http://www.qos.ch)
-    License name: MIT License
+  org.snakeyaml.snakeyaml-engine:2.6: 
+    Project:      SnakeYAML Engine
+    Version:      2.6
+    Available at: https://bitbucket.org/snakeyaml/snakeyaml-engine
+    License name: Apache License, version 2.0
   
   org.xmlunit:2.3.0: 
     Project: 
@@ -1489,10 +1573,10 @@ Runtime dependencies:
     Developed by: XMLUnit (http://www.xmlunit.org/)
     License name: Apache License, version 2.0
   
-  org.yaml.snakeyaml:1.27: 
+  org.yaml.snakeyaml:2.2: 
     Project:      SnakeYAML
-    Version:      1.27
-    Available at: http://www.snakeyaml.org
+    Version:      2.2
+    Available at: https://bitbucket.org/snakeyaml/snakeyaml
     License name: Apache License, version 2.0
   
   rw@1.3.3: 
@@ -1570,12 +1654,6 @@ Runtime dependencies:
     Version:      1.6.3
     Available at: http://sf.net/projects/wsdl4j
     License name: Common Public License, version 1.0
-  
-  xml-apis:1.4.01: 
-    Project:      XML Commons External Components XML APIs
-    Version:      1.4.01
-    Available at: http://xml.apache.org/commons/components/external/
-    License name: Apache License, version 2.0
   
   xml-resolver:1.2: 
     Project:      XML Commons Resolver Component
@@ -2034,6 +2112,49 @@ Dependency licenses:
     LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
     NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
     EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+  CC0 1.0 Universal: |
+    
+    CC0 1.0 Universal (CC0 1.0)
+    
+    Creative Commons - No Copyright
+    
+    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+    
+    You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
+    
+    Legal Code
+    
+    Statement of Purpose
+    
+    The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
+    
+    Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+    
+    For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+    
+    1. Copyright and Related Rights. A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
+    
+    the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
+    moral rights retained by the original author(s) and/or performer(s);
+    publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
+    rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
+    rights protecting the extraction, dissemination, use and reuse of data in a Work;
+    database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
+    other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+    2. Waiver. To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
+    
+    3. Public License Fallback. Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
+    
+    4. Limitations and Disclaimers.
+    
+    No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
+    Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
+    Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
+    Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.
+    
+    
+    
 
   Common Development and Distribution License, version 1.0: |
     COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) 
@@ -2696,7 +2817,7 @@ Dependency licenses:
     Awesome, nor vice versa. **Please do not use brand logos for any purpose except
     to represent the company, product, or service to which they refer.**
 
-  Indiana University Extreme! Lab Software License, vesion 1.2: |
+  Indiana University Extreme! Lab Software License, version 1.2: |
     Indiana University Extreme! Lab Software License, Version 1.2
     
     Copyright (C) 2003 The Trustees of Indiana University.
