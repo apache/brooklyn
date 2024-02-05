@@ -3,6 +3,8 @@
 
 ### Apache Brooklyn helps to model, deploy, and manage systems.
 
+_This root project is a wrapper around subprojects. **See individual projects for recent changes.**_
+
 It supports blueprints in YAML or Java, and deploys them to many clouds and other target environments.
 It monitors those deployments, maintains a live model, and runs autonomic policies to maintain their health.
 
