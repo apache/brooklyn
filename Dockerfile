@@ -36,7 +36,7 @@ RUN apt-get install -y \
 RUN cd /tmp \
 && curl -O https://dl.google.com/go/go1.22.5.linux-amd64.tar.gz \
 && CKSUM=$(sha256sum go1.22.5.linux-amd64.tar.gz | awk '{print $1}') \
-&& [ ${CKSUM} = "d3379c32a90fdf9382166f8f48034c459a8cc433730bc9476d39d9082c94583b" ] \
+&& [ ${CKSUM} = "904b924d435eaea086515bc63235b192ea441bd8c9b198c507e85009e6e4c7f0" ] \
 && tar xf go1.22.5.linux-amd64.tar.gz \
 && rm go1.22.5.linux-amd64.tar.gz \
 && chown -R root:root ./go \
