@@ -34,11 +34,11 @@ RUN apt-get install -y \
     `# node; maven installs this usually, but handy to have for testing` nodejs
 
 RUN cd /tmp \
-&& curl -O https://dl.google.com/go/go1.15.8.linux-amd64.tar.gz \
-&& CKSUM=$(sha256sum go1.15.8.linux-amd64.tar.gz | awk '{print $1}') \
+&& curl -O https://dl.google.com/go/go1.22.5.linux-amd64.tar.gz \
+&& CKSUM=$(sha256sum go1.22.5.linux-amd64.tar.gz | awk '{print $1}') \
 && [ ${CKSUM} = "d3379c32a90fdf9382166f8f48034c459a8cc433730bc9476d39d9082c94583b" ] \
-&& tar xf go1.15.8.linux-amd64.tar.gz \
-&& rm go1.15.8.linux-amd64.tar.gz \
+&& tar xf go1.22.5.linux-amd64.tar.gz \
+&& rm go1.22.5.linux-amd64.tar.gz \
 && chown -R root:root ./go \
 && mv go /usr/local
 
