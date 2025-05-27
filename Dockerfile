@@ -17,7 +17,7 @@
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
 # and PhantomJS
-FROM maven:3.9.4-amazoncorretto-8-debian
+FROM maven:3-amazoncorretto-8-debian
 # was 3.8.6-jdk-8 # but it is giving errors on the brooklyn apache build server
 #6 4.655 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/l/linux/linux-libc-dev_5.10.179-1_amd64.deb  404  Not Found [IP: 151.101.22.132 80]
 
