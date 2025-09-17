@@ -16,10 +16,9 @@
 # under the License.
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
-# and PhantomJS
+# and PhantomJS; ideally PhantomJS would be replaced with Chromium 
+# see https://medium.com/@alexbainter/replace-phantomjs-with-headless-chromium-for-javascript-unit-testing-in-karma-59812e6f8ce4
 FROM maven:3-amazoncorretto-8-debian
-# was 3.8.6-jdk-8 # but it is giving errors on the brooklyn apache build server
-#6 4.655 E: Failed to fetch http://deb.debian.org/debian-security/pool/updates/main/l/linux/linux-libc-dev_5.10.179-1_amd64.deb  404  Not Found [IP: 151.101.22.132 80]
 
 # Install necessary binaries to build brooklyn
 RUN apt-get update
@@ -31,6 +30,7 @@ RUN apt-get install -y \
 RUN apt-get install -y \
     `# builders for linux installers` rpm dpkg pkg-config \
     `# libraries for nodejs image processing` libpng-dev libjpeg-progs pngquant \
+    `# more libs needed on recent images` libfontconfig \
     `# node; maven installs this usually, but handy to have for testing` nodejs
 
 RUN cd /tmp \
