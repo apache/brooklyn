@@ -16,8 +16,7 @@
 # under the License.
 
 # For all Brooklyn, we use a debian distribution instead of alpine as there are some libgcc incompatibilities with GO
-# and PhantomJS; ideally PhantomJS would be replaced with Chromium 
-# see https://medium.com/@alexbainter/replace-phantomjs-with-headless-chromium-for-javascript-unit-testing-in-karma-59812e6f8ce4
+# (and formerly PhantomJS, now replaced by headless Chromium for the UI karma tests)
 FROM maven:3-amazoncorretto-8-debian
 
 # Install necessary binaries to build brooklyn
@@ -32,6 +31,15 @@ RUN apt-get install -y \
     `# libraries for nodejs image processing` libpng-dev libjpeg-progs pngquant \
     `# more libs needed on recent images` libfontconfig \
     `# node; maven installs this usually, but handy to have for testing` nodejs
+RUN apt-get install -y \
+    `# headless browser for UI karma tests (ChromeHeadless)` chromium
+
+# Chromium's sandbox needs user namespaces, which the Jenkins container doesn't allow, so karma
+# starts it through a wrapper that adds --no-sandbox. Stop puppeteer downloading its own Chromium.
+RUN printf '#!/bin/sh\nexec /usr/bin/chromium --no-sandbox "$@"\n' > /usr/local/bin/chromium-no-sandbox \
+ && chmod 755 /usr/local/bin/chromium-no-sandbox
+ENV CHROME_BIN=/usr/local/bin/chromium-no-sandbox
+ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
 RUN cd /tmp \
 && curl -O https://dl.google.com/go/go1.22.5.linux-amd64.tar.gz \
